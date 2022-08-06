@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="style.css">
+				<link rel="stylesheet" href="icon.css">
+				<title>Rollercss</title>
+</head>
+<body>
+
+<!-- pic-form -->
+<div class="pic-form">
+	<div id="pic-form-heading">
+		<h1><span class="gw-icon">imagesearch_roller</span>Rollercss</h1>			
+	</div>
+	
+	<form action="javaScript:void(0)" onsubmit="pic()">
+		  <div id="pic-form-head">
+		  		<div id="pic">
+	     	<img src="" id="pic-pic">
+       </div>        
+         <input type="file" id="files">
+        <div id="choose-pic" onclick="choosepic()"><span class="gw-icon">add_a_photo</span>Choose profile</div>
+		  </div>
+		  
+		  <input type="text" placeholder="Your name" id="name-form" required>
+		  <input type="email" placeholder="Your email"  id="email-form" required>
+		  <input type="number" placeholder="Your mob. number" id="num-form" required>
+		  <div id="pic-form-foot">
+		  	<input type="reset" value="Reset">
+		  	<input type="submit" value="Done">
+		  </div>
+	</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- navbar -->
+<div class="nav">				
+	<div class="nav-left">	
+	<h3 class="gw-icon">imagesearch_roller</h3>
+	<h2>
+					<span class="fruit">roller</span><span class="css">css</span>
+	</h2>
+	</div>
+	
+	<div class="nav-right">
+	<h1 class="gw-icon" id="search">search</h1>
+	<h1 class="gw-icon" id="menu">menu</h1>	
+	</div>
+</div>
+
+<!-- sidebar -->
+<div class="sidebar">
+
+<section id="side-top">
+	<h3 class="gw-icon" id="side-back" onclick="sidebc()">arrow_back</h3>
+  <h3 class="gw-icon" id="toggle" onclick="tog()">brightness_4</h3>
+  <h3 class="pic-edit gw-icon" onclick="edt()">edit</h3>
+<div id="pic2">
+		<img src="" id="pic-pic">
+</div> 
+<h2 class="pic-name"></h2>
+<h2 class="pic-num"></h2>
+</section>
+  
+  
+
+ 
+ 
+
+  <div id="list"></div>
+ <p id="state">No images stored in your browser.</p> 
+ <a href="#" id="deleteImgs">Delete Images</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- first section -->
+<section class="first">
+	<h1>A modern front-end library based on CSS and Javascript</h1>
+	<h3>
+		A utility-first CSS framework packed with classes like <span class="green">d-flex</span>, <span class="green">pt-4</span>, <span class="green">bc-yellow-300</span> and <span class="green">text-4</span> that can be composed to build any design, directly in your markup.			
+	</h3>
+	<a href="javascript:void(0)">Get Started</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="second">
+<div id="laptop">
+		<div id="dots">
+			      <div><span>●</span><span>●</span><span>●</span></div>
+		</div>		
+		
+
+
+
+<div id="type">
+
+<p>
+<span id="blur"><</span><span id="pink">div</span><span id="blur"> class=</span><span id="blue">"w-9 center pt-2 pb-1 br-1"</span><span id="blur">></span></p>
+
+
+<p style="margin-left:1rem;">
+<span id="blur"><</span><span id="pink">img</span><span id="blur"> src=</span><span id="blue">"/dhruv.jpg"</span><span id="blur"> width=</span><span id="blue">"130"</span>	<span id="blur"> height=</span><span id="blue">"130"</span>	<span id="blur"> class=</span><span id="blue">"br-full b-2-white center m-0 p-0"</span><span id="blur">></span></p>
+		
+		
+<p style="margin-left:3rem;">
+<span id="blur"><</span><span id="pink">p</span><span id="blur"> class=</span><span id="blue">"ta-center c-ws fw-5 lh-4 px-5"</span><span id="blur">></span><br><span id="fff"> “Rollercss is the only library that I've seen scale on large teams. <br>It’s easy to customize, adapts to any design, and the build size is tiny.”</span><br><span id="blur"><</span><span id="blur">/</span><span id="pink">p</span><span id="blur">></span></p>
+
+
+
+<p style="margin-left:3rem;">
+<span id="blur"><</span><span id="pink">p</span><span id="blur"> class=</span><span id="blue">"ta-center fw-5 o-0.1 c-cyan m-0 lh-5"</span><span id="blur">></span><br><span id="fff" style="margin-left:3rem;" class="typing-text"></span>
+<br>
+<span id="blur" style="margin-left:3rem;"><</span><span id="pink">p</span><span id="blur"> class=</span><span id="blue">"c-ws-3 ta-center m-0"</span><span id="blur">></span><br><span id="fff" style="margin-left:3rem;">Staff Engineer, GetWeb</span><br><span id="blur" style="margin-left:3rem;"><</span><span id="blur">/</span><span id="pink">p</span><span id="blur">></span>
+<br>
+<span id="blur"><</span><span id="blur">/</span><span id="pink">p</span><span id="blur">></span></p>
+		
+		
+<p>
+<span id="blur"><</span><span id="blur">/</span><span id="pink">div</span><span id="blur">></span>		
+</p>		
+</div>
+
+
+</div>				
+
+
+
+
+
+
+<div style="margin-top:2.5rem;position:absolute;transform:translateX(-50%);left:50%;padding-top:1rem;padding-bottom:0.5rem;border-radius: 10px;" id="card-one">
+<img src="dhruv.jpg" width="120" height="120" style="border-radius:100%;position:relative;transform:translateX(-50%);left:50%;margin:0;padding:0;" id="card-one-img">
+<p style="text-align:center;font-weight: 500;line-height:25px;padding-inline:2.5rem;">“Rollercss is the only library that I've seen scale on large teams. It’s easy to customize, adapts to any design, and the build size is tiny.”</p>		
+<p style="text-align:center;color:#f92a71;font-weight: 500;line-height:30px;margin:0;" onclick="window.open('https://www.instagram.com/dhruvmaurya2021_.0.1/')" id="typing-text2">
+<p style="color:#7f8c9e;text-align:center;margin:0;">Staff Engineer, GetWeb</p></p>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="type.js"></script>
+<script>
+new TypeIt(".typing-text", { 
+strings: "Dhruv Maurya", 
+speed: 300, 
+loop: true,
+})
+.pause(3000)
+.go();
+
+new TypeIt("#typing-text2", { 
+strings: "Dhruv Maurya", 
+speed: 400, 
+loop: true,
+cursor: false,
+})
+.pause(3000)
+.go();
+</script>
+</body>
+</html>
