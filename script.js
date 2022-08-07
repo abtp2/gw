@@ -16,6 +16,31 @@ document.body.classList.add("light-theme");
 }
 
 
+
+
+
+// program to generate random strings
+
+// declare all characters
+const characters ='abcdefghijklmnopqrstuvwxyz0123456789';
+
+function generateString(length) {
+    let result = ' ';
+    const charactersLength = characters.length;
+    for ( let i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+
+    return result;
+}
+
+console.log(generateString(8));
+
+
+
+
+
+
 setTimeout(function greet(){ 
 var pic =localStorage.getItem("form");
 var a =localStorage.getItem("name");
@@ -23,6 +48,7 @@ var b =localStorage.getItem("num");
 
 document.getElementsByClassName("pic-name")[0].innerHTML = a;
 document.getElementsByClassName("pic-num")[0].innerHTML ="+91 " + b;
+document.getElementsByClassName("pic-id")[0].innerHTML ="Id:" + generateString(8);
 if(pic == 1) {
 document.getElementsByClassName("pic-form")[0].style.display ="none";				
 }
@@ -53,18 +79,31 @@ function tog(){
 function sidebc(){
 document.getElementsByClassName("sidebar")[0].style.width ="0px";		
 document.body.classList.remove("body");
+
+document.getElementsByClassName("pic-name")[0].style.opacity ="0";
+document.getElementsByClassName("pic-num")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0";
 }
 
 document.getElementById("menu").onclick = function(){
 document.getElementsByClassName("sidebar")[0].style.width ="250px";		
 document.body.classList.add("body");
+
+document.getElementsByClassName("pic-name")[0].style.opacity ="1";
+document.getElementsByClassName("pic-num")[0].style.opacity ="0.8";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0.8";
 }
+
+
 
 document.addEventListener('mouseup', function(e) {
     var container = document.getElementsByClassName('sidebar')[0];
     if (!container.contains(e.target)) {
         document.getElementsByClassName("sidebar")[0].style.width ="0px";		
 document.body.classList.remove("body");
+document.getElementsByClassName("pic-name")[0].style.opacity ="0";
+document.getElementsByClassName("pic-num")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0";
     }});				
 
 

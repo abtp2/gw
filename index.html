@@ -3,6 +3,7 @@
 <head>
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<meta name="theme-color" content="#f92a71">
 				<link rel="stylesheet" href="style.css">
 				<link rel="stylesheet" href="icon.css">
 				<title>Rollercss</title>
@@ -26,7 +27,7 @@
 		  
 		  <input type="text" placeholder="Your name" id="name-form" required>
 		  <input type="email" placeholder="Your email"  id="email-form" required>
-		  <input type="number" placeholder="Your mob. number" id="num-form" required>
+		  <input type="number" placeholder="Your mob. number (optional)" id="num-form">
 		  <div id="pic-form-foot">
 		  	<input type="reset" value="Reset">
 		  	<input type="submit" value="Done">
@@ -59,6 +60,7 @@
 	</div>
 </div>
 
+
 <!-- sidebar -->
 <div class="sidebar">
 
@@ -71,19 +73,24 @@
 </div> 
 <h2 class="pic-name"></h2>
 <h2 class="pic-num"></h2>
+<h2 class="pic-id"></h2>
 </section>
-  
-  
 
+  
  
- 
-
   <div id="list"></div>
  <p id="state">No images stored in your browser.</p> 
  <a href="#" id="deleteImgs">Delete Images</a>
 </div>
+<!-- sidebar ended -->
 
-
+<!-- search bar -->  
+<div id="search-box">
+		<div >
+			<span class="gw-icon">search</span>
+			<input type="search" placeholder="search anything...">
+		</div>
+</div>  
 
 
 
@@ -97,7 +104,7 @@
 <section class="first">
 	<h1>A modern front-end library based on CSS and Javascript</h1>
 	<h3>
-		A utility-first CSS framework packed with classes like <span class="green">d-flex</span>, <span class="green">pt-4</span>, <span class="green">bc-yellow-300</span> and <span class="green">text-4</span> that can be composed to build any design, directly in your markup.			
+		A utility-first CSS library packed with classes like <span class="green">d-flex</span>, <span class="green">pt-4</span>, <span class="green">bc-yellow-300</span> and <span class="green">text-4</span> that can be composed to build any design, directly in your markup.			
 	</h3>
 	<a href="javascript:void(0)">Get Started</a>
 </section>
