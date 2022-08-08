@@ -95,6 +95,18 @@ document.getElementsByClassName("pic-id")[0].style.opacity ="0.8";
 }
 
 
+document.getElementById("search").onclick = function(){
+document.getElementById("search-box").style.display="block";		
+document.body.classList.add("display");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+}
+
+
+
+
+
+
 
 document.addEventListener('mouseup', function(e) {
     var container = document.getElementsByClassName('sidebar')[0];
@@ -104,7 +116,18 @@ document.body.classList.remove("body");
 document.getElementsByClassName("pic-name")[0].style.opacity ="0";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0";
 document.getElementsByClassName("pic-id")[0].style.opacity ="0";
-    }});				
+    }});	
+
+document.addEventListener('mouseup', function(e) {
+    var container = document.getElementById("search-box");
+    if (!container.contains(e.target)) {
+document.getElementById("search-box").style.display="none";		
+document.body.classList.remove("display");  
+    }});	
+
+
+
+			
 
 
 var fixed = document.getElementsByClassName("sidebar")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
