@@ -11,7 +11,7 @@
 --darkblurbg: rgba(255,255,255,0.08);
 --cardshdark:0px 1px 4px 0px #bbbbbb;
 --cardshlight:0px 1px 5px 0px #a4a4a4;
---darkformbg: #20275c;
+--darkformbg: #1a214d;
 --lightformbg: #e0e0e0;
 --searchdbg: #060433;
 --searchlbg: #fff;
@@ -63,6 +63,10 @@ filter: blur(8px);
 }
 .display > *:not(#search-box) { 
 filter: blur(8px);
+}
+
+a{
+user-select: none;
 }
 
 
@@ -159,7 +163,7 @@ word-spacing:0px;
 letter-spacing:0px;
 padding:0px 8px;
 }
-.first h3{
+.first p{
 font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.1px;
@@ -191,6 +195,7 @@ font-size: 16px;
 font-weight: 500;
 border-radius: 6px;
 margin-bottom: 1rem;
+transition: all 0.3s;
 }
 .first a:nth-child(2){
 text-decoration: none;
@@ -211,6 +216,9 @@ font-size: 24px;
 margin-right: 0.7rem;
 }
 
+.first a:nth-child(1):hover{
+transform: translateY(-5px);
+}
 
 
 
@@ -270,14 +278,14 @@ font-weight: 600;
 
 /* sidebar */
 .sidebar{
-width: 0px;
+width: 250px;
 background: var(--sidebg);
 position: fixed;
 top: 0;
-right: 0;
+right: -100%;
 z-index: 9999999999999999;
 height: 100vh;
-transition: width 0.3s;
+transition: right 0.3s;
 overflow: hidden;
 user-select: none;
 }
@@ -291,6 +299,41 @@ background: var(--blurbg);
 padding-bottom: 0.8rem;
 }
 
+
+#side-right{
+margin-top: 3rem;
+display:flex;align-items:center;justify-content:flex-end; 
+flex-direction: column;
+width: 100%;
+overflow-y: scroll;
+}
+
+#side-right span{
+display:flex;align-items:center;justify-content:center; 
+margin-right: 10px;
+align-self: flex-end;
+margin-bottom: 2rem;
+}
+#side-right span h3{
+font-size: 15px;
+font-weight: 401;
+}
+#side-right span i{
+font-size: 22px;
+font-weight: 100;
+color: var(--blurtext);
+opacity: 0.6;
+margin-left: 18px;
+}
+#side-right #side-hr{
+width: 100%;
+height: 1px;
+outline: none;
+margin: 0;
+padding: 0;
+background: var(--blurbg);
+margin-bottom: 1rem;
+}
 
 
 
@@ -929,6 +972,19 @@ margin-top: 1.5rem;
 text-align: center;
 }
 
+#card-icon{
+position: absolute;
+left: 25px;
+top: 25px;
+font-size: 24px;
+color: #fff;
+}
+#card-icon i{
+margin: -8px !important;
+transform: rotateX(0deg) rotateY(180deg);
+font-weight: 900 !important;
+}
+
 @media(min-width:700px){
 #card{
 width: 87%;
@@ -968,7 +1024,7 @@ left: 5px !important;
 
 @media(min-width:768px){
 .swiper{
-width: 85% !important;
+width: 90% !important;
 }
 .swiper-slide { width: 30% !important;}				
 }
