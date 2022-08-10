@@ -64,11 +64,15 @@ document.getElementsByClassName("pic-form")[0].style.display ="none";
 function tog(){
 	if(document.getElementById('toggle').innerHTML ==="brightness_4") {
 	  document.getElementById('toggle').innerHTML ="brightness_6";
+	  document.getElementById('toggle').style.transform ="rotate(360deg)";
+	  document.getElementById('toggle').style.transition ="all 0.3s";
 		document.body.classList.add("dark-theme");
 		document.body.classList.remove("light-theme");
 		localStorage.setItem("dark", 2);
 	}else {
 		document.getElementById('toggle').innerHTML ="brightness_4";
+		document.getElementById('toggle').style.transform ="rotate(-360deg)";
+		document.getElementById('toggle').style.transition ="all 0.3s";
 		document.body.classList.add("light-theme");
 		document.body.classList.remove("dark-theme");
 		localStorage.setItem("dark", 1);
@@ -94,15 +98,14 @@ document.getElementsByClassName("pic-num")[0].style.opacity ="0.8";
 document.getElementsByClassName("pic-id")[0].style.opacity ="0.8";
 }
 
-
+/*  
 document.getElementById("search").onclick = function(){
 document.getElementById("search-box").style.display="block";		
 document.body.classList.add("display");
 document.getElementById("search-int").focus();
 document.getElementById("search-int").click();
 }
-
-
+ */
 
 
 
@@ -118,14 +121,14 @@ document.getElementsByClassName("pic-num")[0].style.opacity ="0";
 document.getElementsByClassName("pic-id")[0].style.opacity ="0";
     }});	
 
+/*  
 document.addEventListener('mouseup', function(e) {
     var container = document.getElementById("search-box");
     if (!container.contains(e.target)) {
 document.getElementById("search-box").style.display="none";		
 document.body.classList.remove("display");  
     }});	
-
-
+ */
 
 			
 
