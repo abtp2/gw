@@ -1,5 +1,6 @@
 window.onload = function(){
 var local =localStorage.getItem("dark");
+document.body.classList.remove("loader");
 if(local == 1) {
 document.getElementById('toggle').innerHTML ="brightness_4";
 document.body.classList.add("light-theme");
