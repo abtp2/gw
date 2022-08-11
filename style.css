@@ -296,6 +296,7 @@ height: 100vh;
 transition: right 0.3s;
 overflow: hidden;
 user-select: none;
+box-shadow: 0px 0px 0.8px var(--text);
 }
 #side-back{
 font-size: 27px;

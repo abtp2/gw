@@ -7,6 +7,7 @@
 				<link rel="stylesheet" href="style.css">
 				<link rel="stylesheet" href="icon.css">
 				<link rel="stylesheet" href="swiper.css">
+				<link rel="manifest" href="manifest.json">
 				<title>Rollercss</title>
 </head>
 <body class="loader">
@@ -314,5 +315,11 @@ cursor: false,
 .pause(3000)
 .go();
 </script>
+<script type="text/javascript"> 
+self.addEventListener("fetch", function(event){ });
+	if ('serviceWorker' in navigator) { 
+console.log("Will the service worker register?"); navigator.serviceWorker.register('service-worker.js') .then(function(reg){ 
+console.log("Yes, it did."); }).catch(function(err) { 
+console.log("No it didn't. This happened:", err) }); } </script>
 </body>
 </html>
