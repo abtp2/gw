@@ -568,10 +568,6 @@ width: 8rem !important;
 
 
 
-
-
-
-
 .hover\:w-0:hover{
 width: 0px !important;
 }
@@ -797,6 +793,237 @@ width: 8rem !important;
 }				
 }
 
+
+
+
+
+
+
+
+
+
+
+/* percent width */
+.w-0\%{
+width: 0% !important; 
+}
+.w-10\%{
+width: 10% !important;
+}	
+.w-20\%{
+width: 20% !important;
+}	
+.w-30\%{
+width: 30% !important;
+}	
+.w-40\%{
+width: 40% !important;
+}	
+.w-50\%{
+width: 50% !important;
+}	
+.w-60\%{
+width: 60% !important;
+}	
+.w-70\%{
+width: 70% !important;
+}	
+.w-80\%{
+width: 80% !important;
+}	
+.w-90\%{
+width: 90% !important;
+}	
+.w-100\%{
+width: 100% !important;
+}	
+
+
+
+
+
+.hover\:w-0\%:hover{
+width: 0% !important;
+}	
+.hover\:w-10\%:hover{
+width: 10% !important;
+}	
+.hover\:w-20\%:hover{
+width: 20% !important;
+}	
+.hover\:w-30\%:hover{
+width: 30% !important;
+}	
+.hover\:w-40\%:hover{
+width: 40% !important;
+}	
+.hover\:w-50\%:hover{
+width: 50% !important;
+}	
+.hover\:w-60\%:hover{
+width: 60% !important;
+}	
+.hover\:w-70\%:hover{
+width: 70% !important;
+}	
+.hover\:w-80\%:hover{
+width: 80% !important;
+}	
+.hover\:w-90\%:hover{
+width: 90% !important;
+}	
+.hover\:w-100\%:hover{
+width: 100% !important;
+}	
+
+
+
+
+
+@media(min-width:576px){
+.sm\:w-0\%{
+width: 0% !important; 
+}
+.sm\:w-10\%{
+width: 10% !important;
+}	
+.sm\:w-20\%{
+width: 20% !important;
+}	
+.sm\:w-30\%{
+width: 30% !important;
+}	
+.sm\:w-40\%{
+width: 40% !important;
+}	
+.sm\:w-50\%{
+width: 50% !important;
+}	
+.sm\:w-60\%{
+width: 60% !important;
+}	
+.sm\:w-70\%{
+width: 70% !important;
+}	
+.sm\:w-80\%{
+width: 80% !important;
+}	
+.sm\:w-90\%{
+width: 90% !important;
+}	
+.sm\:w-100\%{
+width: 100% !important;
+}			
+}
+
+@media(min-width:768px){
+.md\:w-0\%{
+width: 0% !important; 
+}
+.md\:w-10\%{
+width: 10% !important;
+}	
+.md\:w-20\%{
+width: 20% !important;
+}	
+.md\:w-30\%{
+width: 30% !important;
+}	
+.md\:w-40\%{
+width: 40% !important;
+}	
+.md\:w-50\%{
+width: 50% !important;
+}	
+.md\:w-60\%{
+width: 60% !important;
+}	
+.md\:w-70\%{
+width: 70% !important;
+}	
+.md\:w-80\%{
+width: 80% !important;
+}	
+.md\:w-90\%{
+width: 90% !important;
+}	
+.md\:w-100\%{
+width: 100% !important;
+}			
+}
+
+
+@media(min-width:992px){
+.lg\:w-0\%{
+width: 0% !important; 
+}
+.lg\:w-10\%{
+width: 10% !important;
+}	
+.lg\:w-20\%{
+width: 20% !important;
+}	
+.lg\:w-30\%{
+width: 30% !important;
+}	
+.lg\:w-40\%{
+width: 40% !important;
+}	
+.lg\:w-50\%{
+width: 50% !important;
+}	
+.lg\:w-60\%{
+width: 60% !important;
+}	
+.lg\:w-70\%{
+width: 70% !important;
+}	
+.lg\:w-80\%{
+width: 80% !important;
+}	
+.lg\:w-90\%{
+width: 90% !important;
+}	
+.lg\:w-100\%{
+width: 100% !important;
+}			
+}
+
+@media(min-width:1200px){
+.xl\:w-0\%{
+width: 0% !important; 
+}
+.xl\:w-10\%{
+width: 10% !important;
+}	
+.xl\:w-20\%{
+width: 20% !important;
+}	
+.xl\:w-30\%{
+width: 30% !important;
+}	
+.xl\:w-40\%{
+width: 40% !important;
+}	
+.xl\:w-50\%{
+width: 50% !important;
+}	
+.xl\:w-60\%{
+width: 60% !important;
+}	
+.xl\:w-70\%{
+width: 70% !important;
+}	
+.xl\:w-80\%{
+width: 80% !important;
+}	
+.xl\:w-90\%{
+width: 90% !important;
+}	
+.xl\:w-100\%{
+width: 100% !important;
+}			
+}
 
 /* width ededed */
 
@@ -1080,6 +1307,235 @@ height: 7.2rem !important;
 height: 8rem !important;
 }				
 }
+
+
+
+
+
+
+
+/* percent height  */
+.h-0\%{
+height: 0% !important; 
+}
+.h-10\%{
+height: 10% !important;
+}	
+.h-20\%{
+height: 20% !important;
+}	
+.h-30\%{
+height: 30% !important;
+}	
+.h-40\%{
+height: 40% !important;
+}	
+.h-50\%{
+height: 50% !important;
+}	
+.h-60\%{
+height: 60% !important;
+}	
+.h-70\%{
+height: 70% !important;
+}	
+.h-80\%{
+height: 80% !important;
+}	
+.h-90\%{
+height: 90% !important;
+}	
+.h-100\%{
+height: 100% !important;
+}	
+
+
+
+
+
+.hover\:h-0\%:hover{
+height: 0% !important;
+}	
+.hover\:h-10\%:hover{
+height: 10% !important;
+}	
+.hover\:h-20\%:hover{
+height: 20% !important;
+}	
+.hover\:h-30\%:hover{
+height: 30% !important;
+}	
+.hover\:h-40\%:hover{
+height: 40% !important;
+}	
+.hover\:h-50\%:hover{
+height: 50% !important;
+}	
+.hover\:h-60\%:hover{
+height: 60% !important;
+}	
+.hover\:h-70\%:hover{
+height: 70% !important;
+}	
+.hover\:h-80\%:hover{
+height: 80% !important;
+}	
+.hover\:h-90\%:hover{
+height: 90% !important;
+}	
+.hover\:h-100\%:hover{
+height: 100% !important;
+}	
+
+
+
+
+
+@media(min-width:576px){
+.sm\:h-0\%{
+height: 0% !important; 
+}
+.sm\:h-10\%{
+height: 10% !important;
+}	
+.sm\:h-20\%{
+height: 20% !important;
+}	
+.sm\:h-30\%{
+height: 30% !important;
+}	
+.sm\:h-40\%{
+height: 40% !important;
+}	
+.sm\:h-50\%{
+height: 50% !important;
+}	
+.sm\:h-60\%{
+height: 60% !important;
+}	
+.sm\:h-70\%{
+height: 70% !important;
+}	
+.sm\:h-80\%{
+height: 80% !important;
+}	
+.sm\:h-90\%{
+height: 90% !important;
+}	
+.sm\:h-100\%{
+height: 100% !important;
+}			
+}
+
+@media(min-width:768px){
+.md\:h-0\%{
+height: 0% !important; 
+}
+.md\:h-10\%{
+height: 10% !important;
+}	
+.md\:h-20\%{
+height: 20% !important;
+}	
+.md\:h-30\%{
+height: 30% !important;
+}	
+.md\:h-40\%{
+height: 40% !important;
+}	
+.md\:h-50\%{
+height: 50% !important;
+}	
+.md\:h-60\%{
+height: 60% !important;
+}	
+.md\:h-70\%{
+height: 70% !important;
+}	
+.md\:h-80\%{
+height: 80% !important;
+}	
+.md\:h-90\%{
+height: 90% !important;
+}	
+.md\:h-100\%{
+height: 100% !important;
+}			
+}
+
+
+@media(min-width:992px){
+.lg\:h-0\%{
+height: 0% !important; 
+}
+.lg\:h-10\%{
+height: 10% !important;
+}	
+.lg\:h-20\%{
+height: 20% !important;
+}	
+.lg\:h-30\%{
+height: 30% !important;
+}	
+.lg\:h-40\%{
+height: 40% !important;
+}	
+.lg\:h-50\%{
+height: 50% !important;
+}	
+.lg\:h-60\%{
+height: 60% !important;
+}	
+.lg\:h-70\%{
+height: 70% !important;
+}	
+.lg\:h-80\%{
+height: 80% !important;
+}	
+.lg\:h-90\%{
+height: 90% !important;
+}	
+.lg\:h-100\%{
+height: 100% !important;
+}			
+}
+
+@media(min-width:1200px){
+.xl\:h-0\%{
+height: 0% !important; 
+}
+.xl\:h-10\%{
+height: 10% !important;
+}	
+.xl\:h-20\%{
+height: 20% !important;
+}	
+.xl\:h-30\%{
+height: 30% !important;
+}	
+.xl\:h-40\%{
+height: 40% !important;
+}	
+.xl\:h-50\%{
+height: 50% !important;
+}	
+.xl\:h-60\%{
+height: 60% !important;
+}	
+.xl\:h-70\%{
+height: 70% !important;
+}	
+.xl\:h-80\%{
+height: 80% !important;
+}	
+.xl\:h-90\%{
+height: 90% !important;
+}	
+.xl\:h-100\%{
+height: 100% !important;
+}			
+}
+
 
 
 /* height ededed */
