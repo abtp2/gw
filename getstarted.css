@@ -79,7 +79,19 @@ padding: 0;
 background: #f92a71;
 color: #fff;
 }
-
+#blue{
+color: #f473b6;
+}
+#blur{
+color: #7f8c9e;
+}
+#pink{
+color: #00b5f9;
+}
+#fff{
+color: #fff;
+font-family:Arial;
+}
 
 
 /* navbar */
@@ -583,4 +595,23 @@ font-weight: 400;
 }
 
 
+
+#step-one-code{
+background: #05042e;
+width: 85%;
+border-radius: 6px;
+padding: 12px 14px;
+margin: 2rem auto 0px auto;
+line-height: 26px;
+box-shadow:0px 0px 4px #6c7181;
+font-size: 15px;
+position: relative;
+}
+#step-one-code i{
+position: absolute;
+right: 15px;
+top: 13px;
+font-size: 17px;
+color: var(--blurtext);
+}
 

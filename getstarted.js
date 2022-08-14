@@ -194,7 +194,10 @@ y.style.transform ="rotate(180deg)";
 
 
 
-
+function cop() {
+var x =document.getElementById("step-code-one").innerText;				
+navigator.clipboard.writeText(x);
+}
 
 
 
