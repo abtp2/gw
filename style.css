@@ -79,13 +79,16 @@ padding: 0;
 background: #f92a71;
 color: #fff;
 }
+.card-icon{
+user-select: none !important;
+}
 
 
 
 /* navbar */
 .nav{
 width: 100%;
-box-shadow: 0px 0px 5px 0px #585858;
+box-shadow: 0px 0px 4px 0px #585858;
 padding: 20px 0px;
 display:flex;
 align-items:center;
@@ -393,8 +396,14 @@ margin-top: 0.15rem;
 margin-right: 15px;
 opacity: 0;
 }
-
-
+.active-link{
+opacity: 1 !important;
+color: #f92a71 !important;
+}
+.active-link i{
+opacity: 1 !important;
+color: #f92a71 !important;
+}
 
 
 

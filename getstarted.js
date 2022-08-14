@@ -15,9 +15,9 @@ document.body.classList.remove("light-theme");
 else {
 document.body.classList.add("light-theme");	
 }
- document.getElementById("pic").innerHTML = '<img class="pic-pic" src="' + pic + '"/>';
  document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + pic + '"/>';
 }
+
 
 
 
@@ -53,15 +53,6 @@ var b =localStorage.getItem("num");
 document.getElementsByClassName("pic-name")[0].innerHTML = a;
 document.getElementsByClassName("pic-num")[0].innerHTML ="+91 " + b;
 document.getElementsByClassName("pic-id")[0].innerHTML ="Id:" + generateString(8);
-if(pic == 1) {
-document.getElementsByClassName("pic-form")[0].style.display ="none";				
-}
-else if(pic != 1) {
-document.getElementsByClassName("pic-form")[0].style.display ="flex";				
-}
-else{
-document.getElementsByClassName("pic-form")[0].style.display ="none";				
-}
 }, 300);
 
 
@@ -138,8 +129,6 @@ document.body.classList.remove("display");  
 
 
 var fixed = document.getElementsByClassName("sidebar")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
-var fixed = document.getElementsByClassName("pic-form")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
-
 
 
 
@@ -190,126 +179,49 @@ document.getElementById("email-form").value = c;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var imagesObject = [];
-
-function handleFileSelect(evt) {
-    var files = evt.target.files; // FileList object
-
-    // Loop through the FileList and render image files as thumbnails.
-    for (var i = 0, f; f = files[i]; i++) {
-
-      // Only process image files.
-      if (!f.type.match('image.*')) {
-        continue;
-      }
-
-      var reader = new FileReader();
-
-      // Closure to capture the file information.
-      reader.onload = function(e) {
-          displayImgData(e.target.result)
-          addImage(e.target.result);
-      };
-
-      reader.readAsDataURL(f);
-    }
+/* content box toggle */
+document.getElementById("expand").onclick = function(){
+var x = document.getElementById("content"); 
+var y = document.getElementById("expand");
+if(x.style.height ==="44px") {	
+x.style.height ="100%";	
+y.style.transform ="none";	
+}else {
+x.style.height ="44px";				
+y.style.transform ="rotate(180deg)";	
+}				
 }
 
-function loadFromLocalStorage(){
-  var images = JSON.parse(localStorage.getItem("images"))
 
-  if(images && images.length > 0){
-    imagesObject = images;
-    
-    displayNumberOfImgs();
-    images.forEach(displayImgData);
-  }
-}
 
-function addImage(imgData){
-  imagesObject.push(imgData);
-  displayNumberOfImgs();
-  localStorage.setItem("images", JSON.stringify(imagesObject));
-}
 
-function displayImgData(imgData){
-  var span = document.createElement('span');
-  span.innerHTML = '<img class="thumb" src="' + imgData + '"/>';
- 
- document.getElementById("pic").innerHTML = '<img class="pic-pic" src="' + imgData + '"/>';
- document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + imgData + '"/>';
- 
-document.getElementById("getstart").onclick = function(){
-localStorage.setItem("xyz", imgData); 				
-window.location ="getstarted.html";
-}
-document.getElementById("getstart2").onclick = function(){
-localStorage.setItem("xyz", imgData); 				
-window.location ="getstarted.html";
-}
-  document.getElementById('list').insertBefore(span, null);
-}
 
-function displayNumberOfImgs(){
-  if(imagesObject.length > 0){
 
-    document.getElementById("state").innerHTML = imagesObject.length + " image" + ((imagesObject.length > 1) ? "s" : "") + " stored in your browser";
-    
-    document.getElementById("deleteImgs").style.display = "inline";
-    
-  } else {
-    document.getElementById("state").innerHTML = "No images stored in your browser.";
-    document.getElementById("deleteImgs").style.display = "none";
-  }
-  
-  
-}
 
-function deleteImages(){
-  imagesObject = [];
-  localStorage.removeItem("images");
-  displayNumberOfImgs()
-  document.getElementById('list').innerHTML = "";
-}
 
-document.getElementById('files').addEventListener('change', handleFileSelect, false);
-document.getElementById('deleteImgs').addEventListener("click", deleteImages);
-loadFromLocalStorage();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

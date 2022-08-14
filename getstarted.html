@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<meta name="theme-color" content="#f92a71">
+				<link rel="stylesheet" href="getstarted.css">
+				<link rel="stylesheet" href="icon.css">
+				<link rel="stylesheet" href="swiper.css">
+				<title>rollercss</title>
+</head>
+<body>
+				
+				
+<!-- navbar -->
+<div class="nav">				
+	<div class="nav-left">	
+	<h3 class="rc-icon">imagesearch_roller</h3>
+	<h2>
+					<span class="fruit">roller</span><span class="css">css</span>
+	</h2>
+	</div>
+	
+	<div class="nav-right">
+	 <h1 class="rc-icon" id="toggle" onclick="tog()">brightness_4</h1>
+	<h1 class="rc-icon" id="menu">menu</h1>	
+	</div>
+</div>
+
+<!-- sidebar -->
+<div class="sidebar">
+
+<section id="side-top">
+	<h3 class="rc-icon" id="side-back" onclick="sidebc()">arrow_back</h3>
+<div id="pic2">
+		<img src="" id="pic-pic">
+</div> 
+<h2 class="pic-name"></h2>
+<h2 class="pic-num"></h2>
+<h2 class="pic-id"></h2>
+</section>
+
+
+<div id="side-right">
+	<span onclick="window.location='index.html'"><h3>Home</h3><i class="rc-icon">home</i></span>		
+	<span class="active-link"><h3>Get Started</h3><i class="rc-icon">book</i></span>
+	<span><h3>Docs</h3><i class="rc-icon">auto_stories</i></span>
+	<span><h3>Download</h3><i class="rc-icon">download</i></span>			
+<span style="margin-bottom:1rem;"><h3>Components</h3><i class="rc-icon">library_books</i></span>
+
+<div id="side-hr"></div>
+	
+<span><h3>Edit Profile</h3><i class="rc-icon">create</i></span>
+	<span><h3>About Us</h3><i class="rc-icon">error_outline</i></span>
+</div>  
+  
+  
+  
+ 
+  <div id="list"></div>
+ <p id="state">No images stored in your browser.</p> 
+ <a href="#" id="deleteImgs">Delete Images</a>
+</div>
+<!-- sidebar ended -->
+
+
+
+
+
+
+
+
+
+<!-- first section -->
+<section id="first">
+<h1>Get started with <span>rollercss</span></h1>			
+<p>rollercss is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.</p>
+
+<div id="content">
+	<div id="content-head">
+	<h3>Content on this page</h3>
+	<i class="rc-icon" id="expand">expand_less</i>
+	</div>			
+	
+	<div id="content-foot">
+	<a href="#">Quick start</a>
+	<a href="#">CDN links</a>
+	<a href="#">Next step</a>
+	<a href="#">JS components</a>
+	</div>
+</div>
+</section>
+
+
+
+
+
+<!-- second section -->
+<section id="second">
+<h1>Quick start</h1>			
+<p>Get started by including rollercss’s production-ready CSS and JavaScript via CDN without the need for any build steps.</p>
+
+
+<div id="step-one">
+<p>
+<span class="step-one-bold">
+<span>1.</span>	Create a new index.html file in your project root.</span> Include the <span class="active-link"><span><</span><span>meta</span> <span>name</span><span>="viewport"</span><span>></span></span>tag as well for proper responsive behavior in mobile devices.	
+</p>
+</div>
+</section>
+
+
+
+
+<script src="getstarted.js"></script>				
+</body>
+</html>
