@@ -113,3 +113,453 @@
 
 
 /* row-col ended */
+
+
+
+
+
+/* border-radius */
+.round-1{
+border-radius: 0.3rem !important;
+}
+.round-2{
+border-radius: 0.6rem !important;
+}
+.round-3{
+border-radius: 0.9rem !important;
+}
+.round-4{
+border-radius: 1.2rem !important;
+}
+.round-5{
+border-radius: 1.5rem !important;
+}
+.round-6{
+border-radius: 1.8rem !important;
+}
+.round-7{
+border-radius: 2.1rem !important;
+}
+.round-8{
+border-radius: 2.4rem !important;
+}
+.round-9{
+border-radius: 2.7rem !important;
+}
+.round-10{
+border-radius: 3rem !important;
+}
+.round-full{
+border-radius: 100% !important;
+}
+
+
+
+
+
+
+
+
+.hover\:round-1:hover{
+border-radius: 0.3rem !important;
+}
+.hover\:round-2:hover{
+border-radius: 0.6rem !important;
+}
+.hover\:round-3:hover{
+border-radius: 0.9rem !important;
+}
+.hover\:round-4:hover{
+border-radius: 1.2rem !important;
+}
+.hover\:round-5:hover{
+border-radius: 1.5rem !important;
+}
+.hover\:round-6:hover{
+border-radius: 1.8rem !important;
+}
+.hover\:round-7:hover{
+border-radius: 2.1rem !important;
+}
+.hover\:round-8:hover{
+border-radius: 2.4rem !important;
+}
+.hover\:round-9:hover{
+border-radius: 2.7rem !important;
+}
+.hover\:round-10:hover{
+border-radius: 3rem !important;
+}
+.hover\:round-full:hover{
+border-radius: 100% !important;
+}
+
+
+
+
+
+
+@media(min-width:576px){
+.sm\:round-1{
+border-radius: 0.3rem !important;
+}
+.sm\:round-2{
+border-radius: 0.6rem !important;
+}
+.sm\:round-3{
+border-radius: 0.9rem !important;
+}
+.sm\:round-4{
+border-radius: 1.2rem !important;
+}
+.sm\:round-5{
+border-radius: 1.5rem !important;
+}
+.sm\:round-6{
+border-radius: 1.8rem !important;
+}
+.sm\:round-7{
+border-radius: 2.1rem !important;
+}
+.sm\:round-8{
+border-radius: 2.4rem !important;
+}
+.sm\:round-9{
+border-radius: 2.7rem !important;
+}
+.sm\:round-10{
+border-radius: 3rem !important;
+}
+.sm\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+
+@media(min-width:768px){
+.md\:round-1{
+border-radius: 0.3rem !important;
+}
+.md\:round-2{
+border-radius: 0.6rem !important;
+}
+.md\:round-3{
+border-radius: 0.9rem !important;
+}
+.md\:round-4{
+border-radius: 1.2rem !important;
+}
+.md\:round-5{
+border-radius: 1.5rem !important;
+}
+.md\:round-6{
+border-radius: 1.8rem !important;
+}
+.md\:round-7{
+border-radius: 2.1rem !important;
+}
+.md\:round-8{
+border-radius: 2.4rem !important;
+}
+.md\:round-9{
+border-radius: 2.7rem !important;
+}
+.md\:round-10{
+border-radius: 3rem !important;
+}
+.md\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:round-1{
+border-radius: 0.3rem !important;
+}
+.lg\:round-2{
+border-radius: 0.6rem !important;
+}
+.lg\:round-3{
+border-radius: 0.9rem !important;
+}
+.lg\:round-4{
+border-radius: 1.2rem !important;
+}
+.lg\:round-5{
+border-radius: 1.5rem !important;
+}
+.lg\:round-6{
+border-radius: 1.8rem !important;
+}
+.lg\:round-7{
+border-radius: 2.1rem !important;
+}
+.lg\:round-8{
+border-radius: 2.4rem !important;
+}
+.lg\:round-9{
+border-radius: 2.7rem !important;
+}
+.lg\:round-10{
+border-radius: 3rem !important;
+}
+.lg\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+
+@media(min-width:1200px){
+.xl\:round-1{
+border-radius: 0.3rem !important;
+}
+.xl\:round-2{
+border-radius: 0.6rem !important;
+}
+.xl\:round-3{
+border-radius: 0.9rem !important;
+}
+.xl\:round-4{
+border-radius: 1.2rem !important;
+}
+.xl\:round-5{
+border-radius: 1.5rem !important;
+}
+.xl\:round-6{
+border-radius: 1.8rem !important;
+}
+.xl\:round-7{
+border-radius: 2.1rem !important;
+}
+.xl\:round-8{
+border-radius: 2.4rem !important;
+}
+.xl\:round-9{
+border-radius: 2.7rem !important;
+}
+.xl\:round-10{
+border-radius: 3rem !important;
+}
+.xl\:round-full{
+border-radius: 100% !important;
+}				
+}
+
+/* border-radius ended */
+
+
+
+
+/* line-height */
+.line-space-1{
+line-height: 1 !important;	
+}
+.line-space-2{
+line-height: 1.2 !important;				
+}
+.line-space-3{
+line-height: 1.4 !important;	
+}
+.line-space-4{
+line-height: 1.6 !important;				
+}
+.line-space-5{
+line-height: 1.8 !important;	
+}
+.line-space-6{
+line-height: 2 !important;				
+}
+.line-space-7{
+line-height: 2.2 !important;	
+}
+.line-space-8{
+line-height: 2.4 !important;				
+}
+.line-space-9{
+line-height: 2.6 !important;	
+}
+.line-space-10{
+line-height: 2.8 !important;				
+}
+
+
+
+
+
+.hover\:line-space-1:hover{
+line-height: 1 !important;	
+}
+.hover\:line-space-2:hover{
+line-height: 1.2 !important;				
+}
+.hover\:line-space-3:hover{
+line-height: 1.4 !important;	
+}
+.hover\:line-space-4:hover{
+line-height: 1.6 !important;				
+}
+.hover\:line-space-5:hover{
+line-height: 1.8 !important;	
+}
+.hover\:line-space-6:hover{
+line-height: 2 !important;				
+}
+.hover\:line-space-7:hover{
+line-height: 2.2 !important;	
+}
+.hover\:line-space-8:hover{
+line-height: 2.4 !important;				
+}
+.hover\:line-space-9:hover{
+line-height: 2.6 !important;	
+}
+.hover\:line-space-10:hover{
+line-height: 2.8 !important;				
+}
+
+
+
+
+@media(min-width:576px){
+.sm\:line-space-1{
+line-height: 1 !important;	
+}
+.sm\:line-space-2{
+line-height: 1.2 !important;				
+}
+.sm\:line-space-3{
+line-height: 1.4 !important;	
+}
+.sm\:line-space-4{
+line-height: 1.6 !important;				
+}
+.sm\:line-space-5{
+line-height: 1.8 !important;	
+}
+.sm\:line-space-6{
+line-height: 2 !important;				
+}
+.sm\:line-space-7{
+line-height: 2.2 !important;	
+}
+.sm\:line-space-8{
+line-height: 2.4 !important;				
+}
+.sm\:line-space-9{
+line-height: 2.6 !important;	
+}
+.sm\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+
+
+
+@media(min-width:768px){
+.md\:line-space-1{
+line-height: 1 !important;	
+}
+.md\:line-space-2{
+line-height: 1.2 !important;				
+}
+.md\:line-space-3{
+line-height: 1.4 !important;	
+}
+.md\:line-space-4{
+line-height: 1.6 !important;				
+}
+.md\:line-space-5{
+line-height: 1.8 !important;	
+}
+.md\:line-space-6{
+line-height: 2 !important;				
+}
+.md\:line-space-7{
+line-height: 2.2 !important;	
+}
+.md\:line-space-8{
+line-height: 2.4 !important;				
+}
+.md\:line-space-9{
+line-height: 2.6 !important;	
+}
+.md\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+@media(min-width:992px){
+.lg\:line-space-1{
+line-height: 1 !important;	
+}
+.lg\:line-space-2{
+line-height: 1.2 !important;				
+}
+.lg\:line-space-3{
+line-height: 1.4 !important;	
+}
+.lg\:line-space-4{
+line-height: 1.6 !important;				
+}
+.lg\:line-space-5{
+line-height: 1.8 !important;	
+}
+.lg\:line-space-6{
+line-height: 2 !important;				
+}
+.lg\:line-space-7{
+line-height: 2.2 !important;	
+}
+.lg\:line-space-8{
+line-height: 2.4 !important;				
+}
+.lg\:line-space-9{
+line-height: 2.6 !important;	
+}
+.lg\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+
+@media(min-width:1200px){
+.xl\:line-space-1{
+line-height: 1 !important;	
+}
+.xl\:line-space-2{
+line-height: 1.2 !important;				
+}
+.xl\:line-space-3{
+line-height: 1.4 !important;	
+}
+.xl\:line-space-4{
+line-height: 1.6 !important;				
+}
+.xl\:line-space-5{
+line-height: 1.8 !important;	
+}
+.xl\:line-space-6{
+line-height: 2 !important;				
+}
+.xl\:line-space-7{
+line-height: 2.2 !important;	
+}
+.xl\:line-space-8{
+line-height: 2.4 !important;				
+}
+.xl\:line-space-9{
+line-height: 2.6 !important;	
+}
+.xl\:line-space-10{
+line-height: 2.8 !important;				
+}				
+}
+
+
+/* line-height ended */
+
+

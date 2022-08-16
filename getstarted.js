@@ -38,7 +38,7 @@ function generateString(length) {
     return result;
 }
 
-console.log(generateString(8));
+
 
 
 
