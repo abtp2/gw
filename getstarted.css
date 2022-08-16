@@ -600,12 +600,15 @@ font-weight: 400;
 background: #05042e;
 width: 85%;
 border-radius: 6px;
-padding: 12px 14px;
+padding: 15px 15px;
 margin: 2rem auto 0px auto;
-line-height: 26px;
+line-height: 28px;
 box-shadow:0px 0px 4px #6c7181;
 font-size: 15px;
 position: relative;
+overflow: hidden;
+flex-wrap: wrap;
+word-break: break-all;
 }
 #step-one-code i{
 position: absolute;
@@ -614,4 +617,71 @@ top: 13px;
 font-size: 17px;
 color: var(--blurtext);
 }
+.step-two{
+margin-top: 4rem !important;
+}
+.step-three{
+margin-top: 4rem !important;
+}
+
+
+
+
+
+
+
+
+
+/* third section */
+#third{
+margin-top: 3rem;
+}
+#third h1{
+font-size: 24px;
+letter-spacing: 0.1px;
+margin: 0;
+padding: 0px 20px 0px 20px;
+}
+#third p{
+font-size: 16px;
+margin: 8px 50px 0px 20px;
+}
+@media(min-width:600px){
+#third h1{
+padding: 0px 80px 0px 80px;
+}
+#third p{
+margin: 8px 200px 0px 80px;
+}
+}
+
+#cdn-links{
+width: 85%;
+border-radius: 6px;
+padding: 15px 15px;
+margin: 2rem auto 0px auto;
+background: var(--blurbg);
+overflow: scroll;
+}
+#cdn-links span{
+display:flex;align-items:center;
+border-bottom: 0.1px solid var(--text);
+}
+#cdn-links span h3{
+font-size: 15px;
+font-weight: 500;
+width: 10px;
+margin-right: 6rem;
+}
+#cdn-links span h4{
+font-size: 15px;
+font-weight: 500;
+}
+.link{
+font-size: 14px;
+font-weight: 400 !important;
+color: #f92a71;
+}
+
+
 
