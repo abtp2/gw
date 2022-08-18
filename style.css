@@ -43,6 +43,9 @@
 
 
 
+html{
+accent-color: #f92a71;
+}
 
 body {
 margin: 0;
@@ -55,6 +58,7 @@ height: 100vh;
 width: 100vw;
 overflow-x: hidden;
 font-family: Arial;
+accent-color: #f92a71;
 }
 .body > *:not(.sidebar) { 
 filter: blur(8px);
@@ -63,7 +67,7 @@ filter: blur(8px);
 filter: blur(8px);
 }
 
-a{
+a,article{
 user-select: none;
 }
 

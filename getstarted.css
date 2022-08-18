@@ -44,6 +44,7 @@
 
 html{
 scroll-behavior: smooth;
+accent-color: #f92a71;
 }
 
 body {
@@ -58,6 +59,7 @@ width: 100vw;
 overflow-x: hidden;
 font-family: Arial;
 scroll-behavior: smooth;
+accent-color: #f92a71;
 }
 .body > *:not(.sidebar) { 
 filter: blur(8px);
