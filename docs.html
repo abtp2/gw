@@ -5,6 +5,7 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
 				<link rel="stylesheet" href="docs.css">
 				<link rel="stylesheet" href="icon.css">
+				<link rel="stylesheet" href="roller.css">
 				<title>Page title</title>
 </head>
 <body class="loader">
@@ -14,7 +15,7 @@
 	<div class="nav-left">	
 	<h3 class="rc-icon">imagesearch_roller</h3>
 	<h2>
-					<span class="fruit">Roller</span><span class="css">css</span>
+					<span class="fruit">roller</span><span class="css">css</span>
 	</h2>
 	</div>
 	
@@ -32,9 +33,9 @@
 <div class="sidebar">
 <nav>
 				
-<a class="active" href="#home"><h3>Home</h3><i class="rc-icon">home</i></a>
+<a href="index.html"><h3>Home</h3><i class="rc-icon">home</i></a>
 
-<a href="#install"><h3>Installation</h3><i class="rc-icon">flag</i></a>		
+<a class="active" href="#installation"><h3>Installation</h3><i class="rc-icon">flag</i></a>		
 
 <a href="#install"><h3>Playground</h3><i class="rc-icon">developer_mode</i></a>
 
@@ -48,26 +49,28 @@
 
 <!-- layout -->
 <a class="head-link"><h3>Layout</h3></a>
-<a href="#edit" id="py"><h3>Container</h3></a>
-<a href="#about" id="py"><h3>Display</h3></a>
-<a href="#edit" id="py"><h3>Float</h3></a>
-<a href="#about" id="py"><h3>Overflow</h3></a>
-<a href="#edit" id="py"><h3>Position</h3></a>
-<a href="#about" id="py"><h3>Visibility</h3></a>
-<a href="#edit" id="py"><h3>Colors</h3></a>
-<a href="#about" id="py"><h3>Z-index</h3></a>
+<a href="#container" id="py"><h3>Container</h3></a>
+<a href="#display" id="py"><h3>Display</h3></a>
+<a href="#float" id="py"><h3>Float</h3></a>
+<a href="#overflow" id="py"><h3>Overflow</h3></a>
+<a href="#position" id="py"><h3>Position</h3></a>
+<a href="#visibility" id="py"><h3>Visibility</h3></a>
+<a href="#z-index" id="py"><h3>Z-index</h3></a>
+<a href="#colors" id="py"><h3>Colors</h3></a>
+
 	
 <!-- typography -->	
 <a class="head-link"><h3>Typography</h3></a>
-<a href="#edit" id="py"><h3>Color</h3></a>
 <a href="#about" id="py"><h3>Font Family</h3></a>
 <a href="#edit" id="py"><h3>Font Size</h3></a>
 <a href="#about" id="py"><h3>Font Weight</h3></a>
 <a href="#about" id="py"><h3>Font Style</h3></a>
+<a href="#edit" id="py"><h3>Font Color</h3></a>
 <a href="#edit" id="py"><h3>Letter Spacing</h3></a>
 <a href="#about" id="py"><h3>Line Height</h3></a>
 <a href="#edit" id="py"><h3>Text Alignment</h3></a>
 <a href="#about" id="py"><h3>Vertical Alignment</h3></a>
+
 
 
 <!-- background -->
@@ -171,21 +174,1177 @@
 
 
 
-<section id="home">
-<h1>Home</h1>
+<section id="installation">
+<h3 id="sec-head">Installation</h3>
+<h1 id="sec-head-two">Get started with Rollercss</h1>
+<p id="sec-p">Use our cdn links to use Rollercss in your document. As reference, this is our cdn links</p>
+
+
+
+<div id="cdn-links">
+   <span class="cdn-b">
+   <h3>Description</h3>
+   <h4>URL</h4>
+   </span>
+   
+   <span class="cdn-b">
+   <h3>CSS</h3>  <h4 class="link">https://cdn.jsdelivr.net/gh/abtp2/gw@main/roller.css</h4>
+   </span>
+   
+   <span>
+   <h3>JS</h3>  <h4 class="link">https://cdn.jsdelivr.net/gh/abtp2/gw@main/roller.js</h4>
+   </span>
+</div>
+
+
+<h2>Wants to know more about installation ?</h2>
+<h5>view our get started page.</h5>
+<article onclick="window.location='getstarted.html'">Get started</article>
 </section>
 
-<section id="components">
-<h1>Components</h1>
+
+
+<!-- layout section -->
+<!-- container -->
+<section id="container">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Container</h1>
+<p id="sec-p">A component for fixing an element's width to the current breakpoint.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">container</h3>  
+   <h4 class="cp-link">width = 100% (according to device)</h4>
+   </span>   
+</div>
+
+<br><br>
+<h3 id="sec-head">Basic usage</h3>
+<h1 id="sec-head-two">Using the container</h1>
+<p id="sec-p">The <span style="font-weight:500;">'container'</span> class sets the <span style="font-weight:500;">'max-width'</span> of an element to match the <span style="font-weight:500;">'min-width'</span> of the current breakpoint. This is useful if you’d prefer to design for a fixed set of screen sizes instead of trying to accommodate a fully fluid viewport.
+<br>
+<span style="font-weight:500;">Note :</span> that unlike containers you might have used in other libraries, Rollercss’s container does not center itself automatically and does not have any 
+built-in horizontal padding.</p>
+
+<br><br>
+<h3 id="sec-head">Applying conditionally</h3>
+<h1 id="sec-head-two">Responsive variants</h1>
+<p id="sec-p">The <span style="font-weight:500;">'container'</span> class also includes responsive variants like <span style="font-weight:500;">'md:container'</span> by default that allow you to make something behave like a container at only a certain breakpoint and up:</p>
+
+
+
+
+
+<div id="step-one-code">
+  <div id="step-code-one">	
+  <span id="blur"><</span><span id="blur">-- Full-width fluid until the `md` breakpoint, then lock to container</span><span id="blur">--</span><span id="blur">></span>
+  <br>
+  <span id="blur"><</span><span id="pink">div</span><span id="blur">  class=</span><span id="blue">"md:container  md:mx-auto"</span><span id="blur">></span>
+  <br>
+   <span id="blur"><</span><span id="blur">/</span><span id="pink">div</span><span id="blur">></span
+   </div> 
+</div></div><br><br>
+
+
+
+
+
+<h1 id="sec-head-two">Hover state</h1>
+<p id="sec-p">Rollercss lets you conditionally apply utility classes in hover state using variant modifiers. For example, use hover:container.</p>
+
+<div id="step-one-code">
+  <div id="step-code-one">	
+  <span id="blur"><</span><span id="blur">-- Full-width fluid until the user hover, then lock to container</span><span id="blur">--</span><span id="blur">></span>
+  <br>
+  <span id="blur"><</span><span id="pink">div</span><span id="blur">  class=</span><span id="blue">"hover:container  hover:mx-auto"</span><span id="blur">></span>
+  <br>
+   <span id="blur"><</span><span id="blur">/</span><span id="pink">div</span><span id="blur">></span
+   </div> 
+</div></div>
 </section>
 
-<section id="edit">
-<h1>Edit Profile</h1>
+
+
+
+<!-- display section -->
+<section id="display">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Display</h1>
+<p id="sec-p">Utilities for controlling the display box type of an element.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">d-none</h3>  
+   <h4 class="cp-link">display = none</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-flex</h3>  
+   <h4 class="cp-link">display = flex</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-block</h3>  
+   <h4 class="cp-link">display = block</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-grid</h3>  
+   <h4 class="cp-link">display = grid</h4>
+   </span>  
+   
+    <span class="c-b">
+   <h3 class="cp-name">d-inline</h3>  
+   <h4 class="cp-link">display = inline</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-in-flex</h3>  
+   <h4 class="cp-link">display = inline-flex</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-in-block</h3>  
+   <h4 class="cp-link">display = inline-block</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-in-grid</h3>  
+   <h4 class="cp-link">display = inline-grid</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">d-in-table</h3>  
+   <h4 class="cp-link">display = inline-table</h4>
+   </span>  
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:d-block , lg:d-grid , hover:d-flex etc.</span></p>
 </section>
 
-<section id="about">
-<h1>About us</h1>
+
+
+
+
+
+
+
+
+
+
+<!-- float section -->
+<section id="float">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Float</h1>
+<p id="sec-p">Utilities for controlling the wrapping of content around an element.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">float-none</h3>  
+   <h4 class="cp-link">float = none</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">float-left</h3>  
+   <h4 class="cp-link">float = left</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">float-right</h3>  
+   <h4 class="cp-link">float = right</h4>
+   </span> 
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:float-left , lg:float-right , hover:float-left etc.</span></p>
 </section>
+
+
+
+<!-- overflow section -->
+<section id="overflow">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Overflow</h1>
+<p id="sec-p">Utilities for controlling how an element handles content that is too large for the container.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">overflow-auto</h3>  
+   <h4 class="cp-link">overflow = auto</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-hidden</h3>  
+   <h4 class="cp-link">overflow = hidden</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-visible</h3>  
+   <h4 class="cp-link">overflow = visible</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-scroll</h3>  
+   <h4 class="cp-link">overflow = scroll</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-x-auto</h3>  
+   <h4 class="cp-link">overflow-x = auto</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-x-hidden</h3>  
+   <h4 class="cp-link">overflow-x = hidden</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-x-visible</h3>  
+   <h4 class="cp-link">overflow-x = visible</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-x-scroll</h3>  
+   <h4 class="cp-link">overflow-x = scroll</h4>
+   </span> 
+   
+    <span class="c-b">
+   <h3 class="cp-name">overflow-y-auto</h3>  
+   <h4 class="cp-link">overflow-y = auto</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-y-hidden</h3>  
+   <h4 class="cp-link">overflow-y = hidden</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-y-visible</h3>  
+   <h4 class="cp-link">overflow-y = visible</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">overflow-y-scroll</h3>  
+   <h4 class="cp-link">overflow-y = scroll</h4>
+   </span> 
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:overflow-hidden , lg:overflow-scroll , hover:overflow-hidden etc.</span></p>
+</section>
+
+
+
+
+
+
+<!-- position section -->
+<section id="position">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Position</h1>
+<p id="sec-p">Utilities for controlling how an element should be positioned.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">absolute</h3>  
+   <h4 class="cp-link">position = absolute</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">relative</h3>  
+   <h4 class="cp-link">position = relative</h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">static</h3>  
+   <h4 class="cp-link">position = static</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">sticky</h3>  
+   <h4 class="cp-link">position = sticky</h4>
+   </span> 
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:relative , lg:absolute , hover:static etc.</span></p>
+</section>
+
+
+
+<!-- Visibility section -->
+<section id="visibility">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Visibility</h1>
+<p id="sec-p">Utilities for controlling the visibility of an element.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">visible</h3>  
+   <h4 class="cp-link">visibility = visible</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">invisible</h3>  
+   <h4 class="cp-link">visibility = hidden</h4>
+   </span>  
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:invisible , lg:visible , hover:invisible etc.</span></p>
+</section>
+
+
+
+
+
+<!-- z-index section -->
+<section id="z-index">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Z-index</h1>
+<p id="sec-p">Utilities for controlling the 'z' axis of an element.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Class</h3>
+   <h4>Properties</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">z-auto</h3>  
+   <h4 class="cp-link">z-index = auto</h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-0</h3>  
+   <h4 class="cp-link">z-index = 0</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-1</h3>  
+   <h4 class="cp-link">z-index = 10</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-2</h3>  
+   <h4 class="cp-link">z-index = 20</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-3</h3>  
+   <h4 class="cp-link">z-index = 30</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-4</h3>  
+   <h4 class="cp-link">z-index = 40</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-5</h3>  
+   <h4 class="cp-link">z-index = 50</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-6</h3>  
+   <h4 class="cp-link">z-index = 60</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-7</h3>  
+   <h4 class="cp-link">z-index = 70</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-8</h3>  
+   <h4 class="cp-link">z-index = 80</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-9</h3>  
+   <h4 class="cp-link">z-index = 90</h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">z-10</h3>  
+   <h4 class="cp-link">z-index = 100</h4>
+   </span> 
+
+   <span class="c-b">
+   <h3 class="cp-name">z-full</h3>  
+   <h4 class="cp-link">z-index = infinite</h4>
+   </span>
+</div>
+
+<br><br>
+<h1 id="sec-head-two">Responsive breakpoints and hovering</h1>
+<p id="sec-p">Like all the Rollercss's property this property also supports reponsive and hovering state.<span style="font-weight:500;"> Example : md:z-9 , lg:z-2 , hover:z-5 etc.</span></p>
+</section>
+
+
+
+
+
+<!-- colors section -->
+<section id="colors">
+<h3 id="sec-head">Layout</h3>
+<h1 id="sec-head-two">Colors</h1>
+<p id="sec-p">Utilities for all the colors.</p>
+
+
+<div id="c-p">
+   <span class="c-b">
+   <h3>Color name</h3>
+   <h4>Color</h4>
+   </span>
+      
+   <span class="c-b">
+   <h3 class="cp-name">transparent</h3>  
+   <h4 class="cp-link"><div class="c-block bc-transparent">&nbsp</div></h4>
+   </span> 
+   
+  <span class="c-b">
+   <h3 class="cp-name">black</h3>  
+   <h4 class="cp-link"><div class="c-block bc-black">&nbsp</div></h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">white</h3>  
+   <h4 class="cp-link"><div class="c-block bc-white">&nbsp</div></h4>
+   </span>
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">gray-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-gray-1000">&nbsp</div></h4>
+   </span>
+   
+    <span class="c-b">
+   <h3 class="cp-name">brown</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">brown-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-brown-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">orange-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-orange-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">red</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">red-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-red-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">yellow-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-yellow-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">green</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">green-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-green-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-green-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-green-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">pink-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-pink-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">purple-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-purple-1000">&nbsp</div></h4>
+   </span> 
+   
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">blue-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-blue-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">light-blue-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-light-blue-1000">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-100</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-100">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-200</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-200">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-300</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-300">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-400</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-400">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-500</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-500">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-600</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-600">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-700</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-700">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-800</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-800">&nbsp</div></h4>
+   </span> 
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-900</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-900">&nbsp</div></h4>
+   </span>  
+   
+   <span class="c-b">
+   <h3 class="cp-name">cyan-1000</h3>  
+   <h4 class="cp-link"><div class="c-block bc-cyan-1000">&nbsp</div></h4>
+   </span> 
+</div>   
+
+<br><br>
+<h1 id="sec-head-two">Uses of these colors.</h1>
+<p id="sec-p">You can use these colors on every property which supportes colors.<span style="font-weight:500;"> Example : c-red-500 , bc-yellow-300 , shadow-red-200 etc.</span></p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

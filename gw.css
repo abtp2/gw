@@ -184,9 +184,6 @@ width:100%;
 padding:0;
 overflow-x:hidden;
 }
-.us-none{
-user-select:none;
-}
 .safe{
 pointer-events:none;
 }
