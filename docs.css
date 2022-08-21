@@ -97,7 +97,7 @@ padding: 20px 0px;
 display:flex;
 align-items:center;
 justify-content: space-between;
-position: fixed;
+position: absolute;
 top: 0;
 z-index: 9999999;
 background: var(--navbg);
