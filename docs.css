@@ -87,7 +87,11 @@ color: #fff;
 user-select: none !important;
 }
 
-
+#to-click{
+position: absolute;
+z-index: -99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+opacity: 0;
+}
 
 /* navbar */
 .nav{
@@ -97,7 +101,7 @@ padding: 20px 0px;
 display:flex;
 align-items:center;
 justify-content: space-between;
-position: absolute;
+position: fixed;
 top: 0;
 z-index: 9999999;
 background: var(--navbg);
@@ -238,6 +242,73 @@ color: #f92a71 !important;
 }
 
 
+/* search-box */
+#search-box{
+width: 92%;
+border-radius: 8px;
+background: var(--searchbg);
+position: fixed;
+z-index: 99999999999999999;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 140px;
+box-shadow: var(--cardsh);
+padding: 3px 0px;
+color: var(--blurtext);
+display: none;
+}
+#search-head{
+width: 100%;
+display:flex;align-items:center;justify-content:center; 
+height: 45px;
+}
+#search-head span{
+font-size: 22px;
+padding: 0px 10px;
+color: ;
+}
+#search-box form{
+width: 100%;
+}
+#search-head input{
+outline: none;
+color: var(--text);
+caret-color: var(--text);
+width: 100%;
+height: 100%;
+border: none;
+background: transparent;
+font-size: 17px;
+padding-right: 1rem;
+}
+
+#search-foot{
+width: 100%;
+display:flex;
+align-items: flex-start;
+justify-content: center; 
+flex-direction: column;
+font-size: 12px;
+margin-top: 0.5rem;
+}
+#search-foot h2{
+font-weight: 400;
+font-size: 15.5px;
+margin: 0.4rem 0px 0.8rem 1rem;
+display:flex;align-items:center;justify-content:center; 
+}
+#search-foot span{
+margin:0px 1.3rem 0px 0px;				
+font-size: 22px;
+padding: 0;
+user-select: none;
+}
+
+::placeholder{
+color: var(--blurtext);
+}
+
+
 
 
 /* main section css srarting */
@@ -353,6 +424,17 @@ border: 0.1px solid var(--blurtext);
 user-select: none;
 }
 
+.cp-link .c-font-block{
+width: 100px;
+padding: 5px 0px;
+border: 0.1px solid var(--blurtext);
+user-select: none;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+display:flex;align-items:center;justify-content:center; 
+}
+
 
 @media(min-width:800px){
 #c-p span h3{
@@ -394,11 +476,18 @@ padding-left: 50px;
 padding-right: 50px;
 }				
 }
-@media(min-width:600px){
+@media(min-width:800px){
 section{
 padding-top: 7rem;
 padding-left: 70px;
 padding-right: 70px;
+}			
+}
+@media(min-width:1200px){
+section{
+padding-top: 7rem;
+padding-left: 90px;
+padding-right: 90px;
 }				
 }
 

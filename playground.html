@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes"/>
+				<link rel="stylesheet" href="roller.css">
+				<title>Playground</title>
+</head>
+<body class="bg-black c-white p-4">
+
+<textarea class="bg-white w-full c-black">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+ <title>Page title</title>
+</head>
+<body>
+				
+</body>
+</html>
+</textarea>
+<button onclick="ashu()">remove</button>
+
+
+
+
+
+<style>
+.pink{
+color: #f92a71;
+font-weight:800;
+}
+</style>
+<script>
+function ashu(){
+var a = document.getElementsByTagName("textarea")[0].value; 
+var x = a.replace("div", "<span>div</span>");
+document.getElementsByTagName("textarea")[0].value =x;
+}
+</script>				
+</body>
+</html>

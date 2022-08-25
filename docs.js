@@ -1,3 +1,8 @@
+var elements = document.getElementsByTagName('a'); for(var i = 0, len = elements.length; i < len; i++) { elements[i].onclick = function () { 
+document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
+document.body.classList.remove("body");
+} }
+
 window.onload = function(){
 var local =localStorage.getItem("dark");
 var pic =localStorage.getItem("xyz");
@@ -58,3 +63,37 @@ document.addEventListener('mouseup', function(e) {
         document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
 document.body.classList.remove("body");
     }});	
+
+
+document.getElementById("search").onclick = function(){
+document.getElementById("search-box").style.display="block";		
+document.body.classList.add("display");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+}
+
+document.addEventListener('mouseup', function(e) {
+    var container = document.getElementById("search-box");
+    if (!container.contains(e.target)) {
+document.getElementById("search-box").style.display="none";		
+document.body.classList.remove("display");  
+    }});	
+
+
+
+
+
+
+
+
+document.getElementById("search-form").onsubmit = function(){
+var x =document.getElementById("search-int").value;
+
+
+if (x.indexOf('Border') > -1){
+document.getElementById("search-box").style.display="none";		
+document.body.classList.remove("display");
+document.getElementById("float").scrollIntoView();
+document.getElementById("search-int").value ="";
+}		
+}

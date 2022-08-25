@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="roller.css">
+				<title>Page title</title>
+</head>
+<body>
+				
+
+<nav class="nav w-full fixed top-0 c-white bg-pink-600">
+  <div class="nav-head h-5 px-1">
+    	 <div class="nav-brand">
+  		    <h1>Navbar</h1>
+      </div>
+  	   <i class="nav-toggler c-black rc-icon text-7 px-1 h-3 round-1 bg-white">menu</i>
+  </div> 				
+  
+   <div class="nav-foot px-1 lg:ml-auto lg:mr-0">
+  	  <a href="" class="my-1 c-white text-none lg:mx-1">Home</a>
+  	  <a href="" class="my-1 c-white text-none lg:mx-1">Gallery</a>
+  	  <a href="" class="my-1 c-white text-none lg:mx-1">Docs</a>
+  	  <a href="" class="my-1 c-white text-none lg:mx-1">Github</a>
+  	  <button class="h-4 w-full my-1 bg-white b-4 b-gray round-2 text-3 px-1 hover:b-gray-800 lg:h-3 lg:mx-1">About Us</button>  	
+  </div>
+</nav>				
+
+
+<section>First</section>
+<section>second</section>
+<section>third</section>
+
+<style>
+.nav{
+display:flex;
+justify-content: center;
+flex-direction: column;
+color: #fff;
+overflow: hidden;
+}
+.nav-head{
+float: left;
+display:flex;align-items:center;justify-content: space-between; 
+}
+.nav-foot{
+display:flex;align-items:center;justify-content:center; 
+flex-direction: column;
+overflow: hidden;
+max-height: 0px;
+}
+.nav-foot a{
+width: 100%;		
+color:#fff; 
+text-decoration: none; 
+/* text-align: center; */
+}
+.nav-foot button{
+width: 100%;		
+white-space: nowrap;
+}
+.nav-brand{
+display:flex;align-items:center;justify-content:center;
+}
+.nav-toggler{
+display:flex;align-items:center;justify-content:center;
+user-select:none !important;
+}
+
+@media(min-width:992px){
+.nav{
+display:flex;
+align-items: center;
+flex-direction: row;
+}
+.nav-head{
+width: auto;
+}
+.nav-foot{
+width: auto;
+display:flex;
+background: transparent;
+flex-direction: row;
+height: 100%;
+}
+.nav-toggler{
+display: none;
+}				
+}
+ 
+section{
+height: 100vh;
+background: #fff;
+font-size: 30px;
+color: #000;
+display:flex;align-items:center;justify-content:center; 
+}
+</style>				
+
+
+
+
+
+<script>
+document.getElementsByClassName("nav-toggler")[0].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[0];
+if(x.style.maxHeight ==="100vh") {
+x.style.maxHeight ="0px";
+x.style.transition ="max-height 0.3s";
+}else {
+x.style.maxHeight ="100vh";
+x.style.transition ="max-height 1s";
+}				
+}
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[0].style.maxHeight ="100vh";
+}			
+}),1000;
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[0];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition ="max-height 0.3s";  
+}});				
+
+</script>
+</body>
+</html>

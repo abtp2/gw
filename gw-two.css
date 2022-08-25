@@ -2513,7 +2513,9 @@ text-decoration: underline;
 .text-line-through{
 text-decoration: line-through;
 }
-
+.text-none{
+text-decoration: none !important;
+}
 
 
 .hover\:text-italic{
@@ -2537,6 +2539,9 @@ text-decoration: underline;
 }
 .hover\:text-line-through{
 text-decoration: line-through;
+}
+.hover\:text-none:hover{
+text-decoration: none !important;
 }
 
 
@@ -2563,6 +2568,9 @@ text-decoration: underline;
 }
 .sm\:text-line-through{
 text-decoration: line-through;
+}
+.sm\:text-none{
+text-decoration: none !important;
 }
 }
 
@@ -2591,6 +2599,9 @@ text-decoration: underline;
 .md\:text-line-through{
 text-decoration: line-through;
 }
+.sm\:text-none{
+text-decoration: none !important;
+}
 }
 
 @media(min-width:992px){
@@ -2615,6 +2626,9 @@ text-decoration: underline;
 }
 .lg\:text-line-through{
 text-decoration: line-through;
+}
+.sm\:text-none{
+text-decoration: none !important;
 }
 }
 
@@ -2641,6 +2655,9 @@ text-decoration: underline;
 }
 .xl\:text-line-through{
 text-decoration: line-through;
+}
+.sm\:text-none{
+text-decoration: none !important;
 }
 }
 
@@ -3769,6 +3786,9 @@ position: relative !important;
 .absolute{
 position: absolute !important;
 }
+.fixed{
+position: fixed !important;
+}
 .static{
 position: static !important;
 }
@@ -3782,6 +3802,9 @@ position: relative !important;
 }
 .hover\:absolute:hover{
 position: absolute !important;
+}
+.hover\:fixed:hover{
+position: fixed !important;
 }
 .hover\:static:hover{
 position: static !important;
@@ -3798,6 +3821,9 @@ position: relative !important;
 .sm\:absolute{
 position: absolute !important;
 }
+.sm\:fixed{
+position: fixed !important;
+}
 .sm\:static{
 position: static !important;
 }
@@ -3812,6 +3838,9 @@ position: relative !important;
 }
 .md\:absolute{
 position: absolute !important;
+}
+.md\:fixed{
+position: fixed !important;
 }
 .md\:static{
 position: static !important;
@@ -3828,6 +3857,9 @@ position: relative !important;
 .lg\:absolute{
 position: absolute !important;
 }
+.lg\:fixed{
+position: fixed !important;
+}
 .lg\:static{
 position: static !important;
 }
@@ -3842,6 +3874,9 @@ position: relative !important;
 }
 .xl\:absolute{
 position: absolute !important;
+}
+.xl\:fixed{
+position: fixed !important;
 }
 .xl\:static{
 position: static !important;

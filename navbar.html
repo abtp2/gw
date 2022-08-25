@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="roller.css">
+				<title>Page title</title>
+</head>
+<body>
+
+<nav class="side-nav w-full fixed top-0 c-white px-1 bg-pink-600">
+	 <div class="side-nav-head h-5">
+    	 <div class="side-nav-brand">
+  		    <h1>Navbar</h1>
+      </div>
+  	   <i class="side-nav-toggler c-black rc-icon text-7 px-1 h-3 round-1 bg-white">menu</i>
+  </div> 		
+  
+  <div class="side-nav-foot shadow-2 shadow-white bg-pink-500 lg:ml-auto lg:mr-0 lg:bg-transparent lg:shadow-none" nav-width="250px">
+  	 <i class="rc-icon text-7 side-nav-closer">close</i>
+  	 <a class="my-1 c-black text-none lg:mx-1">Home</a>	
+  	 <a class="my-1 c-black text-none lg:mx-1">Docs</a>	
+  	 <a class="my-1 c-black text-none lg:mx-1">Gallery</a>	
+  	 <a class="my-1 c-black text-none lg:mx-1">Github</a>
+  	 <button class="h-4 w-full my-1 bg-white b-4 b-gray round-2 text-3 px-1 hover:b-gray-800 lg:h-3 lg:mx-1">About Us</button>
+  </div>					
+</nav>
+
+
+
+
+
+<style>
+.side-nav{
+display:flex;
+justify-content: center;
+flex-direction: column;
+color: #fff;
+overflow: hidden;
+}
+.side-nav-head{
+float: left;
+display:flex;align-items:center;justify-content: space-between; 
+}
+.side-nav-toggler{
+display:flex;align-items:center;justify-content:center;
+user-select:none !important;
+}
+
+.side-nav-foot{
+height: 100vh;
+position: fixed;
+left: -100%;
+transition: left 0.3s;
+top: 0;
+z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+display:flex;
+flex-direction: column;
+padding: 20px;
+}
+.side-nav-foot a{
+color: #000;	
+margin-bottom: 0.8rem;		
+}
+.side-nav-foot i{
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+
+
+
+
+
+@media(min-width:992px){
+.side-nav{
+display:flex;
+align-items: center;
+flex-direction: row;
+}
+.side-nav-head{
+width: auto;
+}
+.side-nav-foot{
+width: auto;
+display:flex;
+position: relative;
+padding: 0;
+background: transparent;
+flex-direction: row;
+align-items:center;
+height: 100%;
+left: 0%;
+}
+.side-nav-foot i{
+display: none;
+}
+.side-nav-toggler{
+display: none;
+}				
+}
+
+
+</style>
+
+
+
+
+<script>
+document.getElementsByClassName("side-nav-toggler")[0].onclick = function(){
+document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
+}
+document.getElementsByClassName("side-nav-closer")[0].onclick = function(){
+document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";			
+}
+
+window.onload = function(){
+var x = window.matchMedia("(max-width: 992px)");
+if (x.matches){
+var x =document.getElementsByClassName("side-nav-foot")[0];
+var y = x.getAttribute("nav-width");
+x.style.width = y;
+}
+}
+
+setInterval(function sidewaalanav(){
+var x = window.matchMedia("(min-width: 992px)");
+var y = document.getElementsByClassName("side-nav-foot")[0].getAttribute("nav-width");
+if (x.matches){
+document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
+document.getElementsByClassName("side-nav-foot")[0].style.width = "auto";	
+}			
+else{
+document.getElementsByClassName("side-nav-foot")[0].style.width = y;
+}
+}),1000;
+
+
+document.addEventListener('mouseup', function(e) {
+var containerrrrrrrrrr = document.getElementsByClassName("side-nav-foot")[0];
+ if (!containerrrrrrrrrr.contains(e.target)){
+document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";
+}});				
+</script>
+</body>
+</html>
