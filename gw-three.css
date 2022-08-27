@@ -3400,3 +3400,44 @@ overflow-y: scroll !important;
 }
 
 /* overflow ended */
+
+
+
+
+
+/* Ashutosh owner  */
+.ashutosh{
+width: 250px;
+height: 250px;
+background-image: url("https://cdn.jsdelivr.net/gh/abtp2/gw@main/ashu.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+border: 6px solid #f92a71;
+position: fixed;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+z-index: 9999999999999999999999999999999999999999999999999999999999;
+box-shadow: 0px 2px 7px 2px #bababa;
+animation: ashutosh 6s ease infinite;
+}
+
+@keyframes ashutosh{
+0%,100%{
+border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}				
+20%{
+border-radius: 48% 52% 83% 17% / 30% 57% 43% 70% ;
+}
+40%{
+border-radius: 74% 26% 87% 13% / 21% 89% 11% 79% ;
+}
+60%{
+border-radius: 50% 50% 47% 53% / 44% 37% 63% 56% ;
+}
+80%{
+border-radius: 17% 83% 61% 39% / 44% 49% 51% 56% ;
+}
+}
+/* Property ended */
