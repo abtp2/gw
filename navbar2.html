@@ -9,7 +9,7 @@
 <body>
 				
 
-<nav class="nav w-full fixed top-0 c-white bg-pink-600">
+<nav class="nav w-full fixed top-0 c-white bg-pink-600 nav-down-blur">
   <div class="nav-head h-5 px-1">
     	 <div class="nav-brand">
   		    <h1>Navbar</h1>
@@ -27,11 +27,15 @@
 </nav>				
 
 
-<section>First</section>
+<section>First andforemostistheonlylibrary</section>
 <section>second</section>
 <section>third</section>
 
 <style>
+.jabnavbarnichetoblur > *:not(.nav){
+filter: blur(5px) !important;
+}
+
 .nav{
 display:flex;
 justify-content: center;
@@ -104,13 +108,29 @@ display:flex;align-items:center;justify-content:center;
 <script>
 document.getElementsByClassName("nav-toggler")[0].onclick = function(){
 var x = document.getElementsByClassName("nav-foot")[0];
+if(document.getElementsByClassName("nav")[0].classList.contains("nav-down-blur")){
+
 if(x.style.maxHeight ==="100vh") {
 x.style.maxHeight ="0px";
 x.style.transition ="max-height 0.3s";
-}else {
+document.body.classList.remove("jabnavbarnichetoblur");
+} 
+else {
+x.style.maxHeight ="100vh";
+x.style.transition ="max-height 1s";
+document.body.classList.add("jabnavbarnichetoblur");
+}				
+}
+else{
+if(x.style.maxHeight ==="100vh") {
+x.style.maxHeight ="0px";
+x.style.transition ="max-height 0.3s";
+} 
+else {
 x.style.maxHeight ="100vh";
 x.style.transition ="max-height 1s";
 }				
+}
 }
 
 setInterval(function apneisapowerfultool(){
@@ -127,7 +147,11 @@ var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
 x.style.transition ="max-height 0.3s";  
+document.body.classList.remove("jabnavbarnichetoblur");
 }});				
+
+
+
 
 </script>
 </body>

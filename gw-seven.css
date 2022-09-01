@@ -35,12 +35,17 @@ text-decoration:none;
 
 
 /* navbar */
+.jabnavbarnichetoblur > *:not(.nav){
+filter: blur(5px) !important;
+}
+
 .nav{
 display:flex;
 justify-content: center;
 flex-direction: column;
 color: #fff;
 overflow: hidden;
+z-index: 99999999999999999999999999999999999999999999999999999999;
 }
 .nav-head{
 float: left;
@@ -96,12 +101,16 @@ display: none !important;
 
 
 /* side-navbar */
+.jabsidenavbarnichetoblur > *:not(.side-nav){
+filter: blur(5px) !important;
+}
 .side-nav{
 display:flex;
 justify-content: center;
 flex-direction: column;
 color: #fff;
 overflow: hidden;
+z-index: 99999999999999999999999999999999999999999999999999999999;
 }
 .side-nav-head{
 float: left;

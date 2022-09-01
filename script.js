@@ -313,3 +313,104 @@ function deleteImages(){
 document.getElementById('files').addEventListener('change', handleFileSelect, false);
 document.getElementById('deleteImgs').addEventListener("click", deleteImages);
 loadFromLocalStorage();
+
+
+
+
+
+
+
+
+window.onscroll = function(){
+var a = document.getElementById("bic");
+var b = document.getElementById("hs");
+var c = document.getElementById("fi");
+var d = document.getElementById("rq");
+var e = document.getElementById("aos");
+
+			
+
+var o = a.offsetTop - 400;
+var t = b.offsetTop - 300;
+var th = c.offsetTop - 400;
+var f = d.offsetTop - 300;
+var fi = e.offsetTop - 400;
+var s = document.getElementById("plr").offsetTop - 300;
+var se = document.getElementById("clr").offsetTop - 400;
+
+
+
+
+if(document.body.scrollTop > o || document.documentElement.scrollTop > o){		
+a.style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > t || document.documentElement.scrollTop > t){
+a.style.background ="transparent";				
+}
+else{
+a.style.background ="transparent";
+}
+
+if(document.body.scrollTop > t || document.documentElement.scrollTop > t){		
+b.style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > th || document.documentElement.scrollTop > th){
+b.style.background ="transparent";				
+}
+else{
+b.style.background ="transparent";
+}
+
+if(document.body.scrollTop > th || document.documentElement.scrollTop > th){		
+c.style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > f || document.documentElement.scrollTop > f){
+c.style.background ="transparent";				
+}
+else{
+c.style.background ="transparent";
+}
+
+if(document.body.scrollTop > f || document.documentElement.scrollTop > f){		
+d.style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > fi || document.documentElement.scrollTop > fi){
+d.style.background ="transparent";				
+}
+else{
+d.style.background ="transparent";
+}
+
+
+if(document.body.scrollTop > fi || document.documentElement.scrollTop > fi){		
+e.style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > fi || document.documentElement.scrollTop > fi){
+e.style.background ="transparent";				
+}
+else{
+e.style.background ="transparent";
+}
+
+
+if(document.body.scrollTop > s || document.documentElement.scrollTop > s){		
+document.getElementById("plr").style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > s || document.documentElement.scrollTop > s){
+document.getElementById("plr").style.background ="transparent";				
+}
+else{
+document.getElementById("plr").style.background ="transparent";
+}
+
+
+if(document.body.scrollTop > se || document.documentElement.scrollTop > se){		
+document.getElementById("clr").style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > se || document.documentElement.scrollTop > se){
+document.getElementById("clr").style.background ="transparent";				
+}
+else{
+document.getElementById("clr").style.background ="transparent";
+}
+}

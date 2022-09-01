@@ -17,13 +17,29 @@ const nava = document.getElementsByClassName("nav")[0];
 if(document.getElementsByTagName("nav")[0].contains(nava)){
 document.getElementsByClassName("nav-toggler")[0].onclick = function(){
 var x = document.getElementsByClassName("nav-foot")[0];
+if(document.getElementsByClassName("nav")[0].classList.contains("nav-down-blur")){
+
 if(x.style.maxHeight ==="100vh") {
 x.style.maxHeight ="0px";
 x.style.transition ="max-height 0.3s";
-}else {
+document.body.classList.remove("jabnavbarnichetoblur");
+} 
+else {
+x.style.maxHeight ="100vh";
+x.style.transition ="max-height 1s";
+document.body.classList.add("jabnavbarnichetoblur");
+}				
+}
+else{
+if(x.style.maxHeight ==="100vh") {
+x.style.maxHeight ="0px";
+x.style.transition ="max-height 0.3s";
+} 
+else {
 x.style.maxHeight ="100vh";
 x.style.transition ="max-height 1s";
 }				
+}
 }
 
 setInterval(function apneisapowerfultool(){
@@ -40,6 +56,7 @@ var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
 x.style.transition ="max-height 0.3s";  
+document.body.classList.remove("jabnavbarnichetoblur");
 }});				
 }
 
@@ -58,9 +75,13 @@ const sidenava = document.getElementsByClassName("side-nav")[0];
 if(document.getElementsByTagName("nav")[0].contains(sidenava)){
 document.getElementsByClassName("side-nav-toggler")[0].onclick = function(){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
+if(document.getElementsByClassName("side-nav")[0].classList.contains("side-nav-down-blur")){
+document.body.classList.add("jabsidenavbarnichetoblur");				
+}
 }
 document.getElementsByClassName("side-nav-closer")[0].onclick = function(){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";			
+document.body.classList.remove("jabsidenavbarnichetoblur");
 }
 
 window.onload = function(){
@@ -89,5 +110,6 @@ document.addEventListener('mouseup', function(e) {
 var containerrrrrrrrrr = document.getElementsByClassName("side-nav-foot")[0];
  if (!containerrrrrrrrrr.contains(e.target)){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";
+document.body.classList.remove("jabsidenavbarnichetoblur");
 }});				
 }

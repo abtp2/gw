@@ -91,7 +91,7 @@ var x =document.getElementById("search-int").value;
 document.getElementById("search-box").style.display="none";		
 document.body.classList.remove("display");
 document.getElementById("search-int").value ="";
-
+event.preventDefault();
 
 
 if(x.indexOf('Border') > -1 ||
@@ -99,9 +99,4 @@ if(x.indexOf('Border') > -1 ||
 var y=document.getElementById("border-width").offsetTop;
 window.scrollTo(0, y);
 }
-
-
-
-
-return false;
 }

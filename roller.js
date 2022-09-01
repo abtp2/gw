@@ -3,3 +3,4 @@ setTimeout(function(){
 console.log("Done, initialized rollercss ✌");				
 },3000);
 document.write('<script src="components.js"></script>');
+document.write('<script src="swiper.js"></script>');

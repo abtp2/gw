@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<nav class="side-nav w-full fixed top-0 c-white px-1 bg-pink-600">
+<nav class="side-nav w-full fixed top-0 c-white px-1 bg-pink-600 side-nav-down-blur">
 	 <div class="side-nav-head h-5">
     	 <div class="side-nav-brand">
   		    <h1>Navbar</h1>
@@ -16,7 +16,7 @@
   	   <i class="side-nav-toggler c-black rc-icon text-7 px-1 h-3 round-1 bg-white">menu</i>
   </div> 		
   
-  <div class="side-nav-foot shadow-2 shadow-white bg-pink-500 lg:ml-auto lg:mr-0 lg:bg-transparent lg:shadow-none" nav-width="250px">
+  <div class="side-nav-foot shadow-2 shadow-white bg-pink-500 lg:ml-auto lg:mr-0 lg:bg-transparent lg:shadow-none" nav-width="280px">
   	 <i class="rc-icon text-7 side-nav-closer">close</i>
   	 <a class="my-1 c-black text-none lg:mx-1">Home</a>	
   	 <a class="my-1 c-black text-none lg:mx-1">Docs</a>	
@@ -27,10 +27,16 @@
 </nav>
 
 
+ 
+<section class="text-10 mt-10">First andforemostistheonlylibrary</section>
+
 
 
 
 <style>
+.jabsidenavbarnichetoblur > *:not(.side-nav){
+filter: blur(5px) !important;
+}
 .side-nav{
 display:flex;
 justify-content: center;
@@ -110,10 +116,17 @@ display: none;
 <script>
 document.getElementsByClassName("side-nav-toggler")[0].onclick = function(){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
+if(document.getElementsByClassName("side-nav")[0].classList.contains("side-nav-down-blur")){
+document.body.classList.add("jabsidenavbarnichetoblur");				
 }
+}
+
+
 document.getElementsByClassName("side-nav-closer")[0].onclick = function(){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";			
+document.body.classList.remove("jabsidenavbarnichetoblur");
 }
+
 
 window.onload = function(){
 var x = window.matchMedia("(max-width: 992px)");
@@ -141,6 +154,7 @@ document.addEventListener('mouseup', function(e) {
 var containerrrrrrrrrr = document.getElementsByClassName("side-nav-foot")[0];
  if (!containerrrrrrrrrr.contains(e.target)){
 document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";
+document.body.classList.remove("jabsidenavbarnichetoblur");
 }});				
 </script>
 </body>
