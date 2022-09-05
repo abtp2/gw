@@ -145,7 +145,7 @@ var fixed = document.getElementsByClassName("pic-form")[0]; fixed.addEventListen
 
 
 
-
+/*  
 function pic(){
 var x =document.getElementById("name-form").value;
 var y =document.getElementById("num-form").value;
@@ -165,7 +165,7 @@ document.getElementsByClassName("pic-num")[0].innerHTML ="+91 " + b;
 
 document.getElementsByClassName("pic-form")[0].style.display ="none";
 console.log(x);
-}
+} */
 function choosepic(){
 document.getElementById("files").click();				
 }
@@ -286,7 +286,31 @@ localStorage.setItem("xyz", imgData);
 window.location ="getstarted.html";
 }
   document.getElementById('list').insertBefore(span, null);
+  
+document.getElementById("papa-form").onsubmit = function(){
+var x =document.getElementById("name-form").value;
+var y =document.getElementById("num-form").value;
+var z =document.getElementById("email-form").value;
+
+localStorage.setItem("name", x);
+localStorage.setItem("num", y);
+localStorage.setItem("email", z);
+localStorage.setItem("form", 1);
+localStorage.setItem("xyz", imgData);
+
+
+var a =localStorage.getItem("name");
+var b =localStorage.getItem("num");
+
+document.getElementsByClassName("pic-name")[0].innerHTML = a;
+document.getElementsByClassName("pic-num")[0].innerHTML ="+91 " + b;
+
+document.getElementsByClassName("pic-form")[0].style.display ="none";
+console.log(x);
 }
+
+}
+
 
 function displayNumberOfImgs(){
   if(imagesObject.length > 0){
@@ -337,6 +361,7 @@ var f = d.offsetTop - 300;
 var fi = e.offsetTop - 400;
 var s = document.getElementById("plr").offsetTop - 300;
 var se = document.getElementById("clr").offsetTop - 400;
+var ei = document.getElementById("tem").offsetTop - 300;
 
 
 
@@ -412,5 +437,16 @@ document.getElementById("clr").style.background ="transparent";
 }
 else{
 document.getElementById("clr").style.background ="transparent";
+}
+
+
+if(document.body.scrollTop > ei || document.documentElement.scrollTop > ei){		
+document.getElementById("tem").style.background ="var(--blurbg)";
+}
+else if(document.body.scrollTop > ei || document.documentElement.scrollTop > ei){
+document.getElementById("tem").style.background ="transparent";				
+}
+else{
+document.getElementById("tem").style.background ="transparent";
 }
 }
