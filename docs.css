@@ -303,6 +303,25 @@ font-size: 22px;
 padding: 0;
 user-select: none;
 }
+#search-foot p{
+position: absolute;
+background: transparent;
+border-top: 3px solid var(--text);
+border-right: 3px solid var(--text);
+border-left: 3px solid var(--text);
+border-bottom: 3px solid transparent;
+right: 1rem;
+bottom: 1.2rem;
+padding: 8px;
+border-radius: 100%;
+opacity: 0;
+animation: search-spin 1s linear infinite;
+}
+@keyframes search-spin{
+100%{
+transform: rotate(360deg);
+}		
+}
 
 ::placeholder{
 color: var(--blurtext);

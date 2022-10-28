@@ -3,6 +3,7 @@
 <head>
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<meta name="description" content="A modern front-end library based on CSS and Javascript">
 				<meta name="theme-color" content="#f92a71">
 				<link rel="stylesheet" href="style.css">
 				<link rel="stylesheet" href="icon.css">
@@ -14,6 +15,8 @@
 
 
 
+
+<!--  
 <!-- pic-form -->
 <div class="pic-form">
 	<div id="pic-form-heading">
@@ -38,7 +41,7 @@
 		  </div>
 	</form>
 </div>
-
+ -->
 
 
 
@@ -65,24 +68,29 @@
 </div>
 
 
+
+
 <!-- sidebar -->
 <div class="sidebar">
 
 <section id="side-top">
 	<h3 class="rc-icon" id="side-back" onclick="sidebc()">arrow_back</h3>
+<i class="rc-icon">imagesearch_roller</i>	
+
+<!-- 
   <h3 class="pic-edit rc-icon" onclick="edt()">create</h3>
 <div id="pic2">
 		<img src="" id="pic-pic">
 </div> 
 <h2 class="pic-name"></h2>
 <h2 class="pic-num"></h2>
-<h2 class="pic-id"></h2>
+<h2 class="pic-id"></h2> -->
 </section>
 
 
 <div id="side-right">
 <span class="active-link"><h3>Home</h3><i class="rc-icon">home</i></span>		
-	<span id="getstart"><h3>Get Started</h3><i class="rc-icon">book</i></span>
+	<span id="getstart" onclick="window.location='getstarted.html'"><h3>Get Started</h3><i class="rc-icon">book</i></span>
 	<span onclick="window.location='docs.html'"><h3>Docs</h3><i class="rc-icon">auto_stories</i></span>
 	<span><h3>Download</h3><i class="rc-icon">download</i></span>			
 <span style="margin-bottom:1rem;"><h3>Components</h3><i class="rc-icon">library_books</i></span>
@@ -199,7 +207,7 @@
 
 
 
-<div style="margin-top:2.5rem;position:absolute;transform:translateX(-50%);left:50%;padding-top:1rem;padding-bottom:0.5rem;border-radius: 10px;" id="card-one">
+<div style="padding-top:1rem;padding-bottom:0.5rem;border-radius: 10px;" id="card-one">
 <img src="dhruv.jpg" width="120" height="120" style="border-radius:100%;position:relative;transform:translateX(-50%);left:50%;margin:0;padding:0;" id="card-one-img">
 <p style="text-align:center;font-weight: 500;line-height:25px;padding-inline:2.5rem;">“Rollercss is the only library that I've seen scale on large teams. It’s easy to customize, adapts to any design, and the build size is tiny.”</p>		
 <p style="text-align:center;color:#f92a71;font-weight: 500;line-height:30px;margin:0;" onclick="window.open('https://www.instagram.com/dhruvmaurya2021_.0.1/')" id="typing-text2">
@@ -359,7 +367,20 @@ This non-responsiveness may be due to your code or wrong framework. Try our open
     		<i class="rc-icon">music_note</i>
     		</span>
 	     <img src="divyam.png">
-      	<h3>Kamal Tripathi<br><span>staff, GetWeb</span></h3>
+      	<h3>Divyam Sahni<br><span>staff, GetWeb</span></h3>
+       	<p>I feel like an idiot for not using rollercss until now. I am extremely happy with this library.</p>
+       </div>
+	</div>
+	
+	
+	<div class="swiper-slide teach-slide"> 
+    		<div id="card">
+    		<span id="card-icon">
+    		<i class="rc-icon">music_note</i>
+    		<i class="rc-icon">music_note</i>
+    		</span>
+	     <img src="sarthakG.jpg">
+      	<h3>Sarthak Garg<br><span>staff, GetWeb</span></h3>
        	<p>I feel like an idiot for not using rollercss until now. I am extremely happy with this library.</p>
        </div>
 	</div>  
@@ -370,8 +391,8 @@ This non-responsiveness may be due to your code or wrong framework. Try our open
     		<i class="rc-icon">music_note</i>
     		<i class="rc-icon">music_note</i>
     		</span>				
-	     <img src="ashu.jpg">
-      	<h3>Divyam Sahni<br><span>staff, GetWeb</span></h3>
+	     <img src="kamalT.jpg">
+      	<h3>Kamal Tripathi<br><span>staff, GetWeb</span></h3>
        	<p>I feel like an idiot for not using rollercss until now. I am extremely happy with this library.</p>
        </div>
 	</div>  
@@ -388,12 +409,38 @@ This non-responsiveness may be due to your code or wrong framework. Try our open
 
 
 
+
+
+
+
+
+
+<!-- video section -->
+<div id="man-video">
+<button id="vid-play"></button>
+<video controls>
+	<source src="man.mp4" type="video/mp4">
+</video>
+</div>
+
+
+
+
+
+
+
+
+
 <!-- footer -->
 <footer>
 <div>
-	<h1><span class="rc-icon">imagesearch_roller</span>rollercss</h1>
-	<p></p>
+<h1>Join Community</h1>				
+<a href="https://t.me/rollercss">Telegram</a>
+<a href="https://youtube.com/channel/UCLoiTyWe84H8BoKE_19qTIA">YouTube</a>
+<a href="https://github.com/rollercss">Github</a>
+<a href="">Discord</a>
 </div>
+<h2><i class="rc-icon">imagesearch_roller</i>rollercss</h2>
 </footer>
 
 

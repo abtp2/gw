@@ -88,10 +88,17 @@ document.body.classList.remove("display");  
 
 document.getElementById("search-form").onsubmit = function(){
 var x =document.getElementById("search-int").value;
+event.preventDefault();
+document.getElementById("search-int").blur();
+document.getElementById("search-rotate").style.opacity ="1";
+
+function greet(){
 document.getElementById("search-box").style.display="none";		
 document.body.classList.remove("display");
 document.getElementById("search-int").value ="";
-event.preventDefault();
+document.getElementById("search-rotate").style.opacity ="0";
+}
+setTimeout(greet, 1500);
 
 
 if(x.indexOf('Border') > -1 ||

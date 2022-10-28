@@ -46,6 +46,9 @@ html{
 scroll-behavior: smooth;
 accent-color: #f92a71;
 }
+*{
+box-sizing: border-box;
+}
 
 body {
 margin: 0;
@@ -176,14 +179,28 @@ user-select: none;
 box-shadow: 0px 0px 0.8px var(--text);
 }
 #side-back{
+position: absolute;
 font-size: 27px;
 font-weight: 400;
-margin: 0.5rem 0 0 1rem;
+top: 0.8rem;
+left: 1rem;
 }
 #side-top{
-background: var(--blurbg);				
+background: var(--blurbg);
 padding-bottom: 0.8rem;
+display: flex; 
+align-items: center;
+justify-content: center;
+padding: 0.8rem 0;
 }
+#side-top i{
+color: #f92a71;
+font-size: 120px;
+margin-left: auto;
+margin-right: 0;
+}
+
+
 
 
 #side-right{
@@ -504,11 +521,13 @@ margin: 5px 200px 0px 80px;
 /* content div */
 #content{
 width: 85%;	
+height: 197px;
 border-radius: 6px;
 background: var(--blurbg);
 margin: 3rem auto 0px auto;
 overflow: hidden;
 user-select: none;
+transition: all 0.3s;
 }
 #content-head{
 width: 100%;
@@ -517,8 +536,9 @@ display:flex;align-items:center;justify-content: space-between;
 box-shadow: 0px 0.1px 1px 0px var(--blurtext);
 }
 #content-head i{
-margin-right: 1.5rem;
+margin-right: 0.5rem;
 font-size: 20px;
+transition: all 0.3s;
 }
 #content-head h3{
 font-weight: 400;
@@ -662,7 +682,7 @@ margin: 8px 200px 0px 80px;
 }
 
 #cdn-links{
-width: 85%;
+width: 90%;
 border-radius: 6px;
 padding: 15px 15px;
 margin: 2rem auto 0px auto;
@@ -694,5 +714,81 @@ color: #00b5f9;
 user-select: all;
 }
 
+@media(min-width:600px){
+#third h1{
+padding: 0px 80px 0px 80px;
+}
+#third p{
+margin: 8px 200px 0px 80px;
+}
+#cdn-links{
+width: 85%;
+}
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+width: 100%;
+margin-top: 5rem;
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center; 
+background: var(--blurbg);
+padding: 1.2rem;
+}
+footer div{
+width: 100%;
+display: flex; 
+flex-direction: column;
+}
+footer div h1{
+font-size: 15.8px;
+margin: 6.5px 0;
+padding: 0;
+color: var(--text);
+}
+footer div a{
+text-decoration: none;
+font-size: 15.8px;
+color: var(--blurtext);
+margin: 6.5px 0;
+padding: 0;
+}
+footer h2{
+margin: 1.5rem 0 0 0;	
+font-size: 25px;
+color: var(--text);
+border-top: 0.1px solid var(--text);
+padding: 10px 0 0 0;
+display: inline-block; 
+text-align: left;
+width: 100%;
+font-weight: 500;
+letter-spacing: 0.2px;
+}
+footer h2 i{
+color: #f92a71;
+}
+@media(min-width:800px){
+footer{
+padding: 2rem 3rem;
+}				
+}

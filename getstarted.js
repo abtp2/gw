@@ -15,7 +15,8 @@ document.body.classList.remove("light-theme");
 else {
 document.body.classList.add("light-theme");	
 }
- document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + pic + '"/>';
+/*  
+ document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + pic + '"/>'; */
 }
 
 
@@ -23,6 +24,9 @@ document.body.classList.add("light-theme");
 
 
 
+
+
+/*  
 // program to generate random strings
 
 // declare all characters
@@ -37,6 +41,7 @@ function generateString(length) {
 
     return result;
 }
+ */
 
 
 
@@ -44,7 +49,7 @@ function generateString(length) {
 
 
 
-
+/*  
 setTimeout(function greet(){ 
 var pic =localStorage.getItem("form");
 var a =localStorage.getItem("name");
@@ -53,7 +58,9 @@ var b =localStorage.getItem("num");
 document.getElementsByClassName("pic-name")[0].innerHTML = a;
 document.getElementsByClassName("pic-num")[0].innerHTML ="+91 " + b;
 document.getElementsByClassName("pic-id")[0].innerHTML ="Id:" + generateString(8);
-}, 300);
+}, 300); */
+
+
 
 
 function tog(){
@@ -79,18 +86,22 @@ function sidebc(){
 document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
 document.body.classList.remove("body");
 
+
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="0";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0"; */
 }
 
 document.getElementById("menu").onclick = function(){
 document.getElementsByClassName("sidebar")[0].style.right ="0px";		
 document.body.classList.add("body");
 
+
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="1";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0.8";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0.8";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0.8"; */
 }
 
 /*  
@@ -111,9 +122,11 @@ document.addEventListener('mouseup', function(e) {
     if (!container.contains(e.target)) {
         document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
 document.body.classList.remove("body");
+
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="0";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0"; */
     }});	
 
 /*  
@@ -134,7 +147,7 @@ var fixed = document.getElementsByClassName("sidebar")[0]; fixed.addEventListene
 
 
 
-
+/* 
 function pic(){
 var x =document.getElementById("name-form").value;
 var y =document.getElementById("num-form").value;
@@ -174,7 +187,7 @@ document.getElementById("name-form").value = a;
 document.getElementById("num-form").value = b;
 document.getElementById("email-form").value = c;
 }
-
+ */
 
 
 
@@ -184,7 +197,7 @@ document.getElementById("expand").onclick = function(){
 var x = document.getElementById("content"); 
 var y = document.getElementById("expand");
 if(x.style.height ==="44px") {	
-x.style.height ="100%";	
+x.style.height ="197px";	
 y.style.transform ="none";	
 }else {
 x.style.height ="44px";				

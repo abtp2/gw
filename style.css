@@ -160,6 +160,9 @@
 html{
 accent-color: #f92a71;
 }
+*{
+box-sizing: border-box;
+}
 
 body {
 margin: 0;
@@ -420,14 +423,27 @@ user-select: none;
 box-shadow: 0px 0px 0.8px var(--text);
 }
 #side-back{
+position: absolute;
 font-size: 27px;
 font-weight: 400;
-margin: 0.5rem 0 0 1rem;
+top: 0.8rem;
+left: 1rem;
 }
 #side-top{
-background: var(--blurbg);				
+background: var(--blurbg);
 padding-bottom: 0.8rem;
+display: flex; 
+align-items: center;
+justify-content: center;
+padding: 0.8rem 0;
 }
+#side-top i{
+color: #f92a71;
+font-size: 120px;
+margin-left: auto;
+margin-right: 0;
+}
+
 
 
 #side-right{
@@ -814,9 +830,11 @@ margin: 0px 0px 10px 0px;
 #card-one{
 background: var(--bg);
 color: var(--text);
-top:70rem;
 width: 90%;
+margin: -5rem auto 0 auto;
 box-shadow: var(--cardsh);
+z-index: 9;
+position: relative;
 }
 
 
@@ -824,39 +842,25 @@ box-shadow: var(--cardsh);
 border: 3px solid var(--text);
 }
 
-@media(max-width:380px){
-#card-one{
-top:73rem;
-}				
-}
-@media(max-width:342px){
-#card-one{
-top:76rem;
-}				
-}
 
 @media(min-width:550px){
 #card-one{
-top:65rem;
 width: 60%;
 }						
 }
 @media(min-width:800px){
 #card-one{
-top: 63;
 width: 50%;
 }										
 }
 @media(min-width:1060px){
 #card-one{
-top:59rem;
 width: 40%;
 }										
 }
 
 @media(min-width:1260px){
 #card-one{
-top:60rem;
 width: 30%;
 }										
 }
@@ -1100,13 +1104,14 @@ text-align: center;
 }
 
 #card p{
-font-size: 16.8px;
+font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.3px;
 line-height: 25px;
-padding: 0 12px;
+padding: 0 14px;
 margin-top: 1.5rem;
 text-align: center;
+color: var(--blurtext);
 }
 
 #card-icon{
@@ -1117,9 +1122,11 @@ font-size: 24px;
 color: #fff;
 }
 #card-icon i{
-margin: -8px !important;
 transform: rotateX(0deg) rotateY(180deg);
 font-weight: 900 !important;
+}
+#card-icon i:nth-child(2){
+margin-left: -16px !important;
 }
 
 @media(min-width:700px){
@@ -1129,16 +1136,6 @@ width: 87%;
 #card p{
 font-size: 15.8px;
 }
-#card-icon{
-left: 35px;
-top: 25px;
-}
-}
-@media(min-width:1200px){
-#card-icon{
-left: 40px;
-top: 25px;
-}				
 }
 
 
@@ -1155,7 +1152,6 @@ margin-top: 1rem;
 
 .swiper-slide { width: 90% !important;}
 .teach-slide{
-width: 85% !important;
 padding: 10px 0px !important;
 }
 
@@ -1170,10 +1166,19 @@ left: 5px !important;
 
 @media(min-width:768px){
 .swiper{
-width: 90% !important;
+width: 100% !important;
 }
-.swiper-slide { width: 30% !important;}				
+.swiper-slide { width: 50% !important;}				
 }
+
+@media(min-width:992px){
+.swiper-slide { width: 45% !important;}						
+}
+
+@media(min-width:1100px){
+.swiper-slide { width: 30% !important;}						
+}
+
 .swiper-pagination-bullet{ background-color: #bebebe !important;
 opacity: 1 !important;
 }
@@ -1205,7 +1210,7 @@ left: 0px !important;
 
 /* Powered features*/
 #power{
-margin-top: 26rem;
+margin-top: 12rem;
 width: 100%;
 padding: 0px 2rem 0px 2rem;
 }
@@ -1364,37 +1369,103 @@ font-size: 14px;
 
 
 
+/*man video */
+#man-video{
+width: 90%;
+border-radius: 6px;
+margin: 3rem auto 0 auto;
+box-shadow: var(--cardsh);
+border: 5px solid var(--blurbg);
+}
+#vid-play{
+position: absolute;
+opacity: 0;
+z-index: -99;
+}
+#man-video video{
+width: 100%;
+background: #fff;
+}
+video::-webkit-media-controls-panel{ 
+background-color: #e1e1e1; 
+}
+video::-webkit-media-controls-timeline{
+background-color: #fff;		
+padding: 0;
+margin: 10px;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+#man-video{
+width: 70%;
+}				
+}
+@media(min-width:992px){
+#man-video{
+width: 50%;
+}				
+}
+
+
+
+
+
+
+
 /* footer */
 footer{
 width: 100%;
-margin-top: 3rem;
+margin-top: 5rem;
 display:flex;
-align-items:center;
-justify-content: flex-start; 
+flex-direction: column;
+align-items: flex-start;
+justify-content: center; 
 background: var(--blurbg);
-}
-footer h1{
-display:flex;align-items:center;justify-content:center;
-font-size: 24px;
-font-weight: 500;
-margin-left: 5px;
+padding: 1.2rem;
 }
 footer div{
-padding: 1rem;
-border-top: 1px solid var(--blurbg);
-border-radius: 10px;
+width: 100%;
+display: flex; 
+flex-direction: column;
 }
-
-footer span{
+footer div h1{
+font-size: 15.8px;
+margin: 6.5px 0;
+padding: 0;
+color: var(--text);
+}
+footer div a{
+text-decoration: none;
+font-size: 15.8px;
+color: var(--blurtext);
+margin: 6.5px 0;
+padding: 0;
+}
+footer h2{
+margin: 1.5rem 0 0 0;	
+font-size: 25px;
+color: var(--text);
+border-top: 0.1px solid var(--text);
+padding: 10px 0 0 0;
+display: inline-block; 
+text-align: left;
+width: 100%;
+font-weight: 500;
+letter-spacing: 0.2px;
+}
+footer h2 i{
 color: #f92a71;
 }
-
-
-
-
-
-
-
-
+@media(min-width:800px){
+footer{
+padding: 2rem 3rem;
+}				
+}
 
 

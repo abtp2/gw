@@ -15,14 +15,19 @@ document.body.classList.remove("light-theme");
 else {
 document.body.classList.add("light-theme");	
 }
+/*  
  document.getElementById("pic").innerHTML = '<img class="pic-pic" src="' + pic + '"/>';
- document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + pic + '"/>';
+ document.getElementById("pic2").innerHTML = '<img class="pic-pic" src="' + pic + '"/>'; */
 }
 
 
 
 
 
+
+
+
+/*  
 // program to generate random strings
 
 // declare all characters
@@ -39,12 +44,14 @@ function generateString(length) {
 }
 
 console.log(generateString(8));
+ */
 
 
 
 
 
 
+/*  
 setTimeout(function greet(){ 
 var pic =localStorage.getItem("form");
 var a =localStorage.getItem("name");
@@ -63,6 +70,12 @@ else{
 document.getElementsByClassName("pic-form")[0].style.display ="none";				
 }
 }, 300);
+ */
+
+
+
+
+
 
 
 function tog(){
@@ -87,19 +100,20 @@ function tog(){
 function sidebc(){
 document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
 document.body.classList.remove("body");
-
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="0";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0"; */
 }
 
 document.getElementById("menu").onclick = function(){
 document.getElementsByClassName("sidebar")[0].style.right ="0px";		
 document.body.classList.add("body");
 
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="1";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0.8";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0.8";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0.8"; */
 }
 
 /*  
@@ -120,9 +134,11 @@ document.addEventListener('mouseup', function(e) {
     if (!container.contains(e.target)) {
         document.getElementsByClassName("sidebar")[0].style.right ="-100%";		
 document.body.classList.remove("body");
+
+/*  
 document.getElementsByClassName("pic-name")[0].style.opacity ="0";
 document.getElementsByClassName("pic-num")[0].style.opacity ="0";
-document.getElementsByClassName("pic-id")[0].style.opacity ="0";
+document.getElementsByClassName("pic-id")[0].style.opacity ="0"; */
     }});	
 
 /*  
@@ -137,9 +153,14 @@ document.body.classList.remove("display");  
 			
 
 
-var fixed = document.getElementsByClassName("sidebar")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
-var fixed = document.getElementsByClassName("pic-form")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
 
+
+var fixed = document.getElementsByClassName("sidebar")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
+
+
+/*  
+var fixed = document.getElementsByClassName("pic-form")[0]; fixed.addEventListener('touchmove', function(e) { e.preventDefault(); }, false);
+ */
 
 
 
@@ -225,9 +246,7 @@ document.getElementById("email-form").value = c;
 
 
 
-
-
-
+/*  
 var imagesObject = [];
 
 function handleFileSelect(evt) {
@@ -337,7 +356,7 @@ function deleteImages(){
 document.getElementById('files').addEventListener('change', handleFileSelect, false);
 document.getElementById('deleteImgs').addEventListener("click", deleteImages);
 loadFromLocalStorage();
-
+ */
 
 
 
@@ -351,7 +370,7 @@ var b = document.getElementById("hs");
 var c = document.getElementById("fi");
 var d = document.getElementById("rq");
 var e = document.getElementById("aos");
-
+var vid = document.getElementsByTagName("video")[0];
 			
 
 var o = a.offsetTop - 400;
@@ -362,7 +381,16 @@ var fi = e.offsetTop - 400;
 var s = document.getElementById("plr").offsetTop - 300;
 var se = document.getElementById("clr").offsetTop - 400;
 var ei = document.getElementById("tem").offsetTop - 300;
+var video = vid.offsetTop - 300;
 
+
+
+
+
+
+if(document.body.scrollTop > video || document.documentElement.scrollTop > video){		
+document.getElementById("vid-play").click();
+}
 
 
 
@@ -450,3 +478,17 @@ else{
 document.getElementById("tem").style.background ="transparent";
 }
 }
+
+
+
+
+
+
+document.getElementById("vid-play").onclick = function(){
+document.getElementsByTagName("video")[0].play();
+}
+
+
+
+
+
