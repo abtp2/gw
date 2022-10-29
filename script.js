@@ -391,6 +391,10 @@ var video = vid.offsetTop - 300;
 if(document.body.scrollTop > video || document.documentElement.scrollTop > video){		
 document.getElementById("vid-play").click();
 }
+else{
+document.getElementById("vid-pause").click();
+}
+
 
 
 
@@ -487,8 +491,7 @@ document.getElementById("tem").style.background ="transparent";
 document.getElementById("vid-play").onclick = function(){
 document.getElementsByTagName("video")[0].play();
 }
-
-
-
-
+document.getElementById("vid-pause").onclick = function(){
+document.getElementsByTagName("video")[0].pause();
+}
 

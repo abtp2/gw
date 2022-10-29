@@ -429,6 +429,7 @@ font-weight: 400;
 top: 0.8rem;
 left: 1rem;
 }
+
 #side-top{
 background: var(--blurbg);
 padding-bottom: 0.8rem;
@@ -1377,7 +1378,7 @@ margin: 3rem auto 0 auto;
 box-shadow: var(--cardsh);
 border: 5px solid var(--blurbg);
 }
-#vid-play{
+#vid-play,#vid-pause{
 position: absolute;
 opacity: 0;
 z-index: -99;
