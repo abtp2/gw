@@ -495,3 +495,9 @@ document.getElementById("vid-pause").onclick = function(){
 document.getElementsByTagName("video")[0].pause();
 }
 
+
+
+
+setTimeout(function vidoo(){
+document.getElementsByTagName("video")[0].click();				
+},2000);
