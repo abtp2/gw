@@ -207,11 +207,22 @@ y.style.transform ="rotate(180deg)";
 
 
 
-function cop() {
-var x =document.getElementById("step-code-one").innerText;				
+document.getElementById("cop_one").onclick = function(){
+var x =document.getElementsByClassName("step-one-code")[0].innerText;				
+var y = document.getElementById("cop_one");
+y.innerText ="done";
+y.style.color ="#65ff00";
 navigator.clipboard.writeText(x);
 }
 
+
+document.getElementById("cop_two").onclick = function(){
+var x =document.getElementsByClassName("step-two-code")[0].innerText;				
+var y = document.getElementById("cop_two");
+y.innerText ="done";
+y.style.color ="#65ff00";
+navigator.clipboard.writeText(x);
+}
 
 
 

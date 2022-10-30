@@ -203,7 +203,9 @@ color: #fff;
 .card-icon{
 user-select: none !important;
 }
-
+img{
+pointer-events: none;	
+}
 
 
 /* navbar */
