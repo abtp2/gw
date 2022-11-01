@@ -5,5 +5,5 @@ console.log("Done, initialized rollercss ✌");
 
 
 
-document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@main/components.js" defer></script>');
-document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@main/swiper.js" defer></script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@latest/components.js" defer></script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@latest/swiper.js" defer></script>');
