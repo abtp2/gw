@@ -1,0 +1,40 @@
+/* TRANSFORMS */
+
+
+/* scale */
+.scale-0{
+transform: scale(0) !important;
+}
+.scale-1{
+transform: scale(1.2) !important;
+}
+.scale-2{
+transform: scale(1.4) !important;
+}
+.scale-3{
+transform: scale(1.6) !important;
+}
+.scale-4{
+transform: scale(1.8) !important;
+}
+.scale-5{
+transform: scale(2) !important;
+}
+.scale-6{
+transform: scale(2.2) !important;
+}
+.scale-7{
+transform: scale(2.4) !important;
+}
+.scale-8{
+transform: scale(2.6) !important;
+}
+.scale-9{
+transform: scale(2.8) !important;
+}
+.scale-10{
+transform: scale(3) !important;
+}
+
+
+
