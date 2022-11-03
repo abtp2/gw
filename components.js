@@ -1,53 +1,62 @@
-/* COMPONENTS */
-const connav = document.getElementsByTagName("nav")[1];
-if(document.body.contains(connav)){
-const dobaarnava = document.getElementsByClassName("nav")[1];
-if(document.getElementsByTagName("nav")[1].contains(dobaarnava)){
-console.log("Sorry, till now Rollercss is not able to read more than one navbar of same kind in one document.");
-}
-const dobaarsidenava = document.getElementsByClassName("side-nav")[1];
-if(document.getElementsByTagName("nav")[1].contains(dobaarsidenava)){
-console.log("Sorry, till now Rollercss is not able to read more than one navbar of same kind in one document.");
-}
-}
+function tocheckifrollercssnavisinthedocument(){
+var nav =document.getElementsByClassName("nav")[0];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[0];
 
 
-/* navbar */
-const nava = document.getElementsByClassName("nav")[0];
-if(document.getElementsByTagName("nav")[0].contains(nava)){
+
+if(nav.contains(blur)){
 document.getElementsByClassName("nav-toggler")[0].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[0];
-if(document.getElementsByClassName("nav")[0].classList.contains("nav-down-blur")){
+var x = document.getElementsByClassName("nav-foot")[0];				
 
-if(x.style.maxHeight ==="100vh") {
-x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";
-document.body.classList.remove("jabnavbarnichetoblur");
-} 
-else {
-x.style.maxHeight ="100vh";
-x.style.transition ="max-height 1s";
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
 document.body.classList.add("jabnavbarnichetoblur");
-}				
+         }		
+}
 }
 else{
-if(x.style.maxHeight ==="100vh") {
-x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";
-} 
-else {
-x.style.maxHeight ="100vh";
-x.style.transition ="max-height 1s";
-}				
+document.getElementsByClassName("nav-toggler")[0].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[0];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
 }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
 document.getElementsByClassName("nav-foot")[0].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
+
 
 
 document.addEventListener('mouseup', function(e) {
@@ -57,59 +66,7 @@ var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
 x.style.maxHeight ="0px";
 x.style.transition ="max-height 0.3s";  
 document.body.classList.remove("jabnavbarnichetoblur");
-}});				
-}
-
-
-
-
-
-
-
-
-
-
-
-/* side-navbar */
-const sidenava = document.getElementsByClassName("side-nav")[0];
-if(document.getElementsByTagName("nav")[0].contains(sidenava)){
-document.getElementsByClassName("side-nav-toggler")[0].onclick = function(){
-document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
-if(document.getElementsByClassName("side-nav")[0].classList.contains("side-nav-down-blur")){
-document.body.classList.add("jabsidenavbarnichetoblur");				
+}});	
 }
 }
-document.getElementsByClassName("side-nav-closer")[0].onclick = function(){
-document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";			
-document.body.classList.remove("jabsidenavbarnichetoblur");
-}
-
-window.onload = function(){
-var x = window.matchMedia("(max-width: 992px)");
-if (x.matches){
-var x =document.getElementsByClassName("side-nav-foot")[0];
-var y = x.getAttribute("nav-width");
-x.style.width = y;
-}
-}
-
-setInterval(function sidewaalanav(){
-var x = window.matchMedia("(min-width: 992px)");
-var y = document.getElementsByClassName("side-nav-foot")[0].getAttribute("nav-width");
-if (x.matches){
-document.getElementsByClassName("side-nav-foot")[0].style.left ="0%";			
-document.getElementsByClassName("side-nav-foot")[0].style.width = "auto";	
-}			
-else{
-document.getElementsByClassName("side-nav-foot")[0].style.width = y;
-}
-}),1000;
-
-
-document.addEventListener('mouseup', function(e) {
-var containerrrrrrrrrr = document.getElementsByClassName("side-nav-foot")[0];
- if (!containerrrrrrrrrr.contains(e.target)){
-document.getElementsByClassName("side-nav-foot")[0].style.left ="-100%";
-document.body.classList.remove("jabsidenavbarnichetoblur");
-}});				
-}
+tocheckifrollercssnavisinthedocument();

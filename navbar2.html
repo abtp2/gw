@@ -9,27 +9,11 @@
 <body>
 				
 
-<nav class="nav w-full fixed top-0 c-white bg-pink-600 nav-down-blur">
-  <div class="nav-head h-5 px-1">
-    	 <div class="nav-brand">
-  		    <h1>Navbar</h1>
-      </div>
-  	   <i class="nav-toggler c-black rc-icon text-7 px-1 h-3 round-1 bg-white">menu</i>
-  </div> 				
-  
-   <div class="nav-foot px-1 lg:ml-auto lg:mr-0">
-  	  <a href="" class="my-1 c-white text-none lg:mx-1">Home</a>
-  	  <a href="" class="my-1 c-white text-none lg:mx-1">Gallery</a>
-  	  <a href="" class="my-1 c-white text-none lg:mx-1">Docs</a>
-  	  <a href="" class="my-1 c-white text-none lg:mx-1">Github</a>
-  	  <button class="h-4 w-full my-1 bg-white b-4 b-gray round-2 text-3 px-1 hover:b-gray-800 lg:h-3 lg:mx-1">About Us</button>  	
-  </div>
-</nav>				
+<nav class="nav w-full fixed top-0 c-white bg-pink-600 nav-down-blur" nav-transition="0.5"> <div class="nav-head h-5 px-1"> 	 <div class="nav-brand"> 		 <h1>Navbar</h1> </div> 	 <i class="nav-toggler c-black rc-icon text-7 px-1 h-3 round-1 bg-white">menu</i> </div> 				 <div class="nav-foot px-1 lg:ml-auto lg:mr-0"> 	 <a href="" class="my-1 c-white text-none lg:mx-1">Home</a> 	 <a href="" class="my-1 c-white text-none lg:mx-1">Gallery</a> 	 <a href="" class="my-1 c-white text-none lg:mx-1">Docs</a> 	 <a href="" class="my-1 c-white text-none lg:mx-1">Github</a> 	 <button class="h-4 w-full my-1 bg-white b-4 b-gray round-2 text-3 px-1 hover:b-gray-800 lg:h-3 lg:mx-1">About Us</button> 	 </div></nav>
 
-
-<section>First andforemostistheonlylibrary</section>
-<section>second</section>
-<section>third</section>
+<section class="bg-pink-200 c-pink-600">First section</section>
+<section><div class="w-90% bg-yellow c-black p-2 mt-10 round-2" data-aos="slide-left">second section</div></section>
+<section><div class="w-90% bg-red c-white p-2 mt-10 round-2" data-aos="zoom-out">third section</div></section>
 
 <style>
 .jabnavbarnichetoblur > *:not(.nav){
@@ -86,6 +70,7 @@ display:flex;
 background: transparent;
 flex-direction: row;
 height: 100%;
+max-height: 100vh;
 }
 .nav-toggler{
 display: none;
@@ -105,54 +90,8 @@ display:flex;align-items:center;justify-content:center;
 
 
 
-<script>
-document.getElementsByClassName("nav-toggler")[0].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[0];
-if(document.getElementsByClassName("nav")[0].classList.contains("nav-down-blur")){
-
-if(x.style.maxHeight ==="100vh") {
-x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";
-document.body.classList.remove("jabnavbarnichetoblur");
-} 
-else {
-x.style.maxHeight ="100vh";
-x.style.transition ="max-height 1s";
-document.body.classList.add("jabnavbarnichetoblur");
-}				
-}
-else{
-if(x.style.maxHeight ==="100vh") {
-x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";
-} 
-else {
-x.style.maxHeight ="100vh";
-x.style.transition ="max-height 1s";
-}				
-}
-}
-
-setInterval(function apneisapowerfultool(){
-var x = window.matchMedia("(min-width: 992px)");
-if (x.matches){
-document.getElementsByClassName("nav-foot")[0].style.maxHeight ="100vh";
-}			
-}),1000;
-
-
-document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[0];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
- if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
-x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
-document.body.classList.remove("jabnavbarnichetoblur");
-}});				
-
-
-
-
-</script>
+<script src="components.js" defer></script>
+<script src="animation.js"></script>
+<script></script>
 </body>
 </html>
