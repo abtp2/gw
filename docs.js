@@ -117,6 +117,8 @@ var font_color = ("Font color").toLowerCase();
 var text_color = ("text color").toLowerCase();
 var text_alignment = ("text align").toLowerCase();
 var vertical_alignment = ("vertical align").toLowerCase();
+var white_space = ("whitespace").toLowerCase();
+
 
 
 
@@ -216,6 +218,15 @@ document.querySelector('a[href="#vertical-alignment"]').click();
 else if(white_space_.includes(x)){
 document.querySelector('a[href="#white-space"]').click();				
 }
+else if(x.includes(white_space)){
+document.querySelector('a[href="#white-space"]').click();				
+}
+
+
+
+
+
+
 
 
 
