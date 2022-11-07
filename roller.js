@@ -1,6 +1,6 @@
-document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@master/components.js" defer></script>');
-document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@master/swiper.js" defer></script>');
-document.write('<script src="https://cdn.jsdelivr.net/gh/abtp2/gw@master/animation.js" defer></script>');
+document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/components.js" defer></script>');
+document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/swiper.js" defer></script>');
+document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/animation.js" defer></script>');
 
 
 console.log("Initializing rollercss...");
