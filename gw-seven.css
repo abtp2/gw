@@ -36,7 +36,8 @@ text-decoration:none;
 
 /* navbar */
 .jabnavbarnichetoblur > *:not(.nav){
-filter: blur(5px) !important;
+filter: blur(1px) !important;
+opacity: 0.8 !important;
 }
 
 .nav{
@@ -100,7 +101,15 @@ display: none !important;
 
 
 
-/* side-navbar */
+
+
+
+
+
+
+
+
+/* side-navbar 
 .jabsidenavbarnichetoblur > *:not(.side-nav){
 filter: blur(5px) !important;
 }
@@ -177,3 +186,4 @@ display: none !important;
 }				
 }
 
+*/

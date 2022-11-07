@@ -6,35 +6,285 @@
 transform: scale(0) !important;
 }
 .scale-1{
-transform: scale(1.2) !important;
+transform: scale(0.2) !important;
 }
 .scale-2{
-transform: scale(1.4) !important;
+transform: scale(0.4) !important;
 }
 .scale-3{
-transform: scale(1.6) !important;
+transform: scale(0.6) !important;
 }
 .scale-4{
-transform: scale(1.8) !important;
+transform: scale(0.8) !important;
 }
 .scale-5{
-transform: scale(2) !important;
+transform: scale(1) !important;
 }
 .scale-6{
-transform: scale(2.2) !important;
+transform: scale(1.2) !important;
 }
 .scale-7{
-transform: scale(2.4) !important;
+transform: scale(1.4) !important;
 }
 .scale-8{
-transform: scale(2.6) !important;
+transform: scale(1.6) !important;
 }
 .scale-9{
-transform: scale(2.8) !important;
+transform: scale(1.8) !important;
 }
 .scale-10{
-transform: scale(3) !important;
+transform: scale(2) !important;
 }
 
 
+
+.scale-x-0{
+transform: scaleX(0) !important;
+}
+.scale-x-1{
+transform: scaleX(0.2) !important;
+}
+.scale-x-2{
+transform: scaleX(0.4) !important;
+}
+.scale-x-3{
+transform: scaleX(0.6) !important;
+}
+.scale-x-4{
+transform: scaleX(0.8) !important;
+}
+.scale-x-5{
+transform: scaleX(1) !important;
+}
+.scale-x-6{
+transform: scaleX(1.2) !important;
+}
+.scale-x-7{
+transform: scaleX(1.4) !important;
+}
+.scale-x-8{
+transform: scaleX(1.6) !important;
+}
+.scale-x-9{
+transform: scaleX(1.8) !important;
+}
+.scale-x-10{
+transform: scaleX(2) !important;
+}
+
+
+
+.scale-y-0{
+transform: scaleY(0) !important;
+}
+.scale-y-1{
+transform: scaleY(0.2) !important;
+}
+.scale-y-2{
+transform: scaleY(0.4) !important;
+}
+.scale-y-3{
+transform: scaleY(0.6) !important;
+}
+.scale-y-4{
+transform: scaleY(0.8) !important;
+}
+.scale-y-5{
+transform: scaleY(1) !important;
+}
+.scale-y-6{
+transform: scaleY(1.2) !important;
+}
+.scale-y-7{
+transform: scaleY(1.4) !important;
+}
+.scale-y-8{
+transform: scaleY(1.6) !important;
+}
+.scale-y-9{
+transform: scaleY(1.8) !important;
+}
+.scale-y-10{
+transform: scaleY(2) !important;
+}
+
+
+.scale-z-0{
+transform: scaleZ(0) !important;
+}
+.scale-z-1{
+transform: scaleZ(0.2) !important;
+}
+.scale-z-2{
+transform: scaleZ(0.4) !important;
+}
+.scale-z-3{
+transform: scaleZ(0.6) !important;
+}
+.scale-z-4{
+transform: scaleZ(0.8) !important;
+}
+.scale-z-5{
+transform: scaleZ(1) !important;
+}
+.scale-z-6{
+transform: scaleZ(1.2) !important;
+}
+.scale-z-7{
+transform: scaleZ(1.4) !important;
+}
+.scale-z-8{
+transform: scaleZ(1.6) !important;
+}
+.scale-z-9{
+transform: scaleZ(1.8) !important;
+}
+.scale-z-10{
+transform: scaleZ(2) !important;
+}
+
+
+
+
+.scale-3d-0{
+transform: scale3d(0) !important;
+}
+.scale-3d-1{
+transform: scale3d(0.2) !important;
+}
+.scale-3d-2{
+transform: scale3d(0.4) !important;
+}
+.scale-3d-3{
+transform: scale3d(0.6) !important;
+}
+.scale-3d-4{
+transform: scale3d(0.8) !important;
+}
+.scale-3d-5{
+transform: scale3d(1) !important;
+}
+.scale-3d-6{
+transform: scale3d(1.2) !important;
+}
+.scale-3d-7{
+transform: scale3d(1.4) !important;
+}
+.scale-3d-8{
+transform: scale3d(1.6) !important;
+}
+.scale-3d-9{
+transform: scale3d(1.8) !important;
+}
+.scale-3d-10{
+transform: scale3d(2) !important;
+}
+
+
+
+
+/* scale hover */
+.hover\:scale-0:hover{
+transform: scale(0) !important;
+}
+.hover\:scale-1:hover{
+transform: scale(0.2) !important;
+}
+.hover\:scale-2:hover{
+transform: scale(0.4) !important;
+}
+.hover\:scale-3:hover{
+transform: scale(0.6) !important;
+}
+.hover\:scale-4:hover{
+transform: scale(0.8) !important;
+}
+.hover\:scale-5:hover{
+transform: scale(1) !important;
+}
+.hover\:scale-6:hover{
+transform: scale(1.2) !important;
+}
+.hover\:scale-7:hover{
+transform: scale(1.4) !important;
+}
+.hover\:scale-8:hover{
+transform: scale(1.6) !important;
+}
+.hover\:scale-9:hover{
+transform: scale(1.8) !important;
+}
+.hover\:scale-10:hover{
+transform: scale(2) !important;
+}
+
+
+
+.hover\:scale-x-0:hover{
+transform: scaleX(0) !important;
+}
+.hover\:scale-x-1:hover{
+transform: scaleX(0.2) !important;
+}
+.hover\:scale-x-2:hover{
+transform: scaleX(0.4) !important;
+}
+.hover\:scale-x-3:hover{
+transform: scaleX(0.6) !important;
+}
+.hover\:scale-x-4:hover{
+transform: scaleX(0.8) !important;
+}
+.hover\:scale-x-5:hover{
+transform: scaleX(1) !important;
+}
+.hover\:scale-x-6:hover{
+transform: scaleX(1.2) !important;
+}
+.hover\:scale-x-7:hover{
+transform: scaleX(1.4) !important;
+}
+.hover\:scale-x-8:hover{
+transform: scaleX(1.6) !important;
+}
+.hover\:scale-x-9:hover{
+transform: scaleX(1.8) !important;
+}
+.hover\:scale-x-10:hover{
+transform: scaleX(2) !important;
+}
+
+.hover\:scale-y-0:hover{
+transform: scaleY(0) !important;
+}
+.hover\:scale-y-1:hover{
+transform: scaleY(0.2) !important;
+}
+.hover\:scale-y-2:hover{
+transform: scaleY(0.4) !important;
+}
+.hover\:scale-y-3:hover{
+transform: scaleY(0.6) !important;
+}
+.hover\:scale-y-4:hover{
+transform: scaleY(0.8) !important;
+}
+.hover\:scale-y-5:hover{
+transform: scaleY(1) !important;
+}
+.hover\:scale-y-6:hover{
+transform: scaleY(1.2) !important;
+}
+.hover\:scale-y-7:hover{
+transform: scaleY(1.4) !important;
+}
+.hover\:scale-y-8:hover{
+transform: scaleY(1.6) !important;
+}
+.hover\:scale-y-9:hover{
+transform: scaleY(1.8) !important;
+}
+.hover\:scale-y-10:hover{
+transform: scaleY(2) !important;
+}
 
