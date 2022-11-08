@@ -65,7 +65,7 @@ var x = document.getElementsByClassName("nav-foot")[0];
 var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[0];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -86,55 +86,23 @@ tocheckifrollercssnavisinthedocumentFIRST();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* for second navbar */
+
 function tocheckifrollercssnavisinthedocumentSECOND(){
-var nav =document.getElementsByClassName("nav")[1];
+var i = 1; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[1];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[1].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[1];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -148,8 +116,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[1].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[1];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -176,7 +144,7 @@ var x = document.getElementsByClassName("nav-foot")[1];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[1].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -184,11 +152,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[1];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[1];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -197,20 +165,22 @@ tocheckifrollercssnavisinthedocumentSECOND();
 
 
 /* for third navbar */
+
 function tocheckifrollercssnavisinthedocumentTHIRD(){
-var nav =document.getElementsByClassName("nav")[2];
+var i = 2; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[2];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[2].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[2];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -224,8 +194,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[2].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[2];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -252,7 +222,7 @@ var x = document.getElementsByClassName("nav-foot")[2];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[2].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -260,11 +230,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[2];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[2];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -274,20 +244,22 @@ tocheckifrollercssnavisinthedocumentTHIRD();
 
 
 /* for fourth navbar */
+
 function tocheckifrollercssnavisinthedocumentFOURTH(){
-var nav =document.getElementsByClassName("nav")[3];
+var i = 3; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[3];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[3].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[3];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -301,8 +273,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[3].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[3];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -329,7 +301,7 @@ var x = document.getElementsByClassName("nav-foot")[3];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[3].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -337,11 +309,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[3];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[3];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -349,21 +321,26 @@ document.body.classList.remove("jabnavbarnichetoblur");
 tocheckifrollercssnavisinthedocumentFOURTH();
 
 
+
+
+
 /* for fifth navbar */
+
 function tocheckifrollercssnavisinthedocumentFIFTH(){
-var nav =document.getElementsByClassName("nav")[4];
+var i = 4; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[4];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[4].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[4];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -377,8 +354,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[4].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[4];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -405,7 +382,7 @@ var x = document.getElementsByClassName("nav-foot")[4];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[4].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -413,32 +390,36 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[4];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[4];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
 }
 tocheckifrollercssnavisinthedocumentFIFTH();
 
+
+
 /* for sixth navbar */
+
 function tocheckifrollercssnavisinthedocumentSIXTH(){
-var nav =document.getElementsByClassName("nav")[5];
+var i = 5; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[5];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[5].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[5];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -452,8 +433,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[5].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[5];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -480,7 +461,7 @@ var x = document.getElementsByClassName("nav-foot")[5];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[5].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -488,11 +469,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[5];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[5];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -501,21 +482,24 @@ tocheckifrollercssnavisinthedocumentSIXTH();
 
 
 
+
 /* for seventh navbar */
+
 function tocheckifrollercssnavisinthedocumentSEVENTH(){
-var nav =document.getElementsByClassName("nav")[6];
+var i = 6; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[6];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[6].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[6];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -529,8 +513,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[6].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[6];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -557,7 +541,7 @@ var x = document.getElementsByClassName("nav-foot")[6];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[6].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -565,11 +549,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[6];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[6];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -577,21 +561,24 @@ document.body.classList.remove("jabnavbarnichetoblur");
 tocheckifrollercssnavisinthedocumentSEVENTH();
 
 
-/* for eigth navbar */
+
+/* for eight navbar */
+
 function tocheckifrollercssnavisinthedocumentEIGHT(){
-var nav =document.getElementsByClassName("nav")[7];
+var i = 7; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[7];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[7].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[7];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -605,8 +592,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[7].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[7];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -633,7 +620,7 @@ var x = document.getElementsByClassName("nav-foot")[7];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[7].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -641,11 +628,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[7];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[7];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -653,21 +640,26 @@ document.body.classList.remove("jabnavbarnichetoblur");
 tocheckifrollercssnavisinthedocumentEIGHT();
 
 
+
+
+
 /* for ninth navbar */
+
 function tocheckifrollercssnavisinthedocumentNINTH(){
-var nav =document.getElementsByClassName("nav")[8];
+var i = 8; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[8];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[8].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[8];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -681,8 +673,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[8].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[8];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -709,7 +701,7 @@ var x = document.getElementsByClassName("nav-foot")[8];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[8].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -717,11 +709,11 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[8];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[8];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
@@ -730,21 +722,25 @@ tocheckifrollercssnavisinthedocumentNINTH();
 
 
 
-/* for tenth navbar */
-function tocheckifrollercssnavisinthedocumentTENTH(){
-var nav =document.getElementsByClassName("nav")[9];
+
+
+/* for 10 navbar */
+
+function tocheckifrollercssnavisinthedocument10(){
+var i = 9; 
+var nav =document.getElementsByClassName("nav")[i];
 if(document.body.contains(nav)){
 var transition = nav.getAttribute("nav-transition");
 var transition_remove = transition * 0.6;
 var transition_add = transition * 1.2;
-var blur = document.getElementsByClassName("nav-down-blur")[9];
+var blur = document.getElementsByClassName("nav-down-blur")[i];
 
 
 
 
 if(nav.contains(blur)){
-document.getElementsByClassName("nav-toggler")[9].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[9];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -758,8 +754,8 @@ document.body.classList.add("jabnavbarnichetoblur");
 }
 }
 else{
-document.getElementsByClassName("nav-toggler")[9].onclick = function(){
-var x = document.getElementsByClassName("nav-foot")[9];				
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
 
     if(x.style.maxHeight ==="100vh") {
     x.style.maxHeight ="0px";
@@ -786,7 +782,7 @@ var x = document.getElementsByClassName("nav-foot")[9];
 setInterval(function apneisapowerfultool(){
 var x = window.matchMedia("(min-width: 992px)");
 if (x.matches){
-document.getElementsByClassName("nav-foot")[9].style.maxHeight ="100vh";
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
 document.body.classList.remove("jabnavbarnichetoblur");
 }			
 }),1000;
@@ -794,19 +790,800 @@ document.body.classList.remove("jabnavbarnichetoblur");
 
 
 document.addEventListener('mouseup', function(e) {
-var x = document.getElementsByClassName("nav-foot")[9];
-var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[9];
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
  if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
 x.style.maxHeight ="0px";
-x.style.transition ="max-height 0.3s";  
+x.style.transition =("max-height ") + (transition_remove + "s");
 document.body.classList.remove("jabnavbarnichetoblur");
 }});	
 }
 }
-tocheckifrollercssnavisinthedocumentTENTH();
+tocheckifrollercssnavisinthedocument10();
+
+
+
+/* for 11 navbar */
+
+function tocheckifrollercssnavisinthedocument11(){
+var i = 10; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
 
 
 
 
 
-/* navbar ended*/
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument11();
+
+
+
+/* for 12 navbar */
+
+function tocheckifrollercssnavisinthedocument12(){
+var i = 11; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument12();
+
+
+
+/* for 13 navbar */
+
+function tocheckifrollercssnavisinthedocument13(){
+var i = 12; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument13();
+
+
+/* for 14 navbar */
+
+function tocheckifrollercssnavisinthedocument14(){
+var i = 13; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument14();
+
+
+
+/* for 15 navbar */
+
+function tocheckifrollercssnavisinthedocument15(){
+var i = 14; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument15();
+
+
+/* for 16 navbar */
+
+function tocheckifrollercssnavisinthedocument16(){
+var i = 15; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument16();
+
+
+
+/* for 17 navbar */
+
+function tocheckifrollercssnavisinthedocument17(){
+var i = 16; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument17();
+
+
+/* for 18 navbar */
+
+function tocheckifrollercssnavisinthedocument18(){
+var i = 17; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument18();
+
+
+
+/* for 19 navbar */
+
+function tocheckifrollercssnavisinthedocument19(){
+var i = 18; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument19();
+
+
+
+/* for 20 navbar */
+
+function tocheckifrollercssnavisinthedocument20(){
+var i = 19; 
+var nav =document.getElementsByClassName("nav")[i];
+if(document.body.contains(nav)){
+var transition = nav.getAttribute("nav-transition");
+var transition_remove = transition * 0.6;
+var transition_add = transition * 1.2;
+var blur = document.getElementsByClassName("nav-down-blur")[i];
+
+
+
+
+if(nav.contains(blur)){
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s"); document.body.classList.remove("jabnavbarnichetoblur");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+document.body.classList.add("jabnavbarnichetoblur");
+         }		
+}
+}
+else{
+document.getElementsByClassName("nav-toggler")[i].onclick = function(){
+var x = document.getElementsByClassName("nav-foot")[i];				
+
+    if(x.style.maxHeight ==="100vh") {
+    x.style.maxHeight ="0px";
+    x.style.transition =("max-height ") + (transition_remove + "s");
+         } 
+    else {
+    x.style.maxHeight ="100vh";
+    x.style.transition =("max-height ") + (transition_add + "s");
+         }		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+setInterval(function apneisapowerfultool(){
+var x = window.matchMedia("(min-width: 992px)");
+if (x.matches){
+document.getElementsByClassName("nav-foot")[i].style.maxHeight ="100vh";
+document.body.classList.remove("jabnavbarnichetoblur");
+}			
+}),1000;
+
+
+
+document.addEventListener('mouseup', function(e) {
+var x = document.getElementsByClassName("nav-foot")[i];
+var containerrrrrrrrrrrrrrrrrrrrrr = document.getElementsByClassName("nav")[i];
+ if (!containerrrrrrrrrrrrrrrrrrrrrr.contains(e.target)){
+x.style.maxHeight ="0px";
+x.style.transition =("max-height ") + (transition_remove + "s");
+document.body.classList.remove("jabnavbarnichetoblur");
+}});	
+}
+}
+tocheckifrollercssnavisinthedocument20();
