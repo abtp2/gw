@@ -25,6 +25,39 @@ document.body.classList.add("light-theme");
 
 
 
+/* take input using input icon in search bar */
+document.querySelector('[text-input="margin top"]').onclick  = function(){
+var x = document.querySelector('[text-input="margin top"]');
+var y = x.getAttribute("text-input");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+document.getElementById("search-int").value = y;
+}
+document.querySelector('[text-input="border"]').onclick  = function(){
+var x = document.querySelector('[text-input="border"]');
+var y = x.getAttribute("text-input");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+document.getElementById("search-int").value = y;
+}
+document.querySelector('[text-input="overflow"]').onclick  = function(){
+var x = document.querySelector('[text-input="overflow"]');
+var y = x.getAttribute("text-input");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+document.getElementById("search-int").value = y;
+}
+document.querySelector('[text-input="flex box"]').onclick  = function(){
+var x = document.querySelector('[text-input="flex box"]');
+var y = x.getAttribute("text-input");
+document.getElementById("search-int").focus();
+document.getElementById("search-int").click();
+document.getElementById("search-int").value = y;
+}
+
+
+
+
 
 function tog(){
 	if(document.getElementById('toggle').innerHTML ==="brightness_4") {
@@ -75,6 +108,7 @@ document.getElementById("search-int").click();
 document.addEventListener('mouseup', function(e) {
     var container = document.getElementById("search-box");
     if (!container.contains(e.target)) {
+document.getElementById("search-box").value="";
 document.getElementById("search-box").style.display="none";		
 document.body.classList.remove("display");  
     }});	

@@ -167,18 +167,25 @@ transition: right 0.3s;
 overflow-x: hidden;
 user-select: none;
 box-shadow: 0px 0px 0.8px var(--text);
-display:flex;align-items:center;justify-content: flex-start; 
+display:flex;
+align-items: flex-end;
+justify-content: flex-start; 
 flex-direction: column;
 overflow-y: visible;
 }
 
 .sidebar a{
-display:flex;align-items:center;justify-content:center; 
-margin-right: 10px;
-align-self: flex-end;
-margin-bottom: 1.5rem;
+display:flex;
+align-items: center;
+justify-content: flex-end; 
+padding: 5px 12px 5px 0;
+margin-bottom: 1rem;
 text-decoration: none;
 color: var(--text);
+text-align: right;
+width: 100%;
+margin-left: auto;
+margin-right: 0;
 }
 .sidebar a h3{
 font-size: 17px;
@@ -206,17 +213,17 @@ margin-bottom: 1rem;
 margin-top: 0.5rem;
 }
 #py{
-margin-right: 25px;
 color: var(--blurtext);
 }
 #py h3{
 font-size: 15px !important;
+margin-right: 10px;
 }
 
 
 .head-link{
-padding-top: 1.8rem;
-opacity: 0.9;
+padding-top: 1.8rem !important;
+opacity: 0.9 !important;
 color: var(--text) !important;
 text-decoration: overline !important;
 margin-right: 15px !important;
@@ -235,6 +242,8 @@ padding-top: 2rem;
 .active{
 opacity: 1 !important;
 color: #f92a71 !important;
+border-left: 3.5px solid #f92a71 !important;
+background: var(--bg);
 }
 .active i{
 opacity: 1 !important;
@@ -249,9 +258,9 @@ border-radius: 8px;
 background: var(--searchbg);
 position: fixed;
 z-index: 99999999999999999;
-transform: translate(-50%,-50%);
+transform: translateX(-50%);
 left: 50%;
-top: 140px;
+top: 1.5rem;
 box-shadow: var(--cardsh);
 padding: 3px 0px;
 color: var(--blurtext);
@@ -263,8 +272,8 @@ display:flex;align-items:center;justify-content:center;
 height: 45px;
 }
 #search-head span{
-font-size: 22px;
-padding: 0px 10px;
+font-size: 20px;
+padding: 0px 5px 0 10px;
 color: ;
 }
 #search-box form{

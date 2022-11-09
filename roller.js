@@ -6,4 +6,4 @@ document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/animatio
 console.log("Initializing rollercss...");
 setTimeout(function(){
 console.log("Done, initialized rollercss ✌");				
-},2800);
+},3000);
