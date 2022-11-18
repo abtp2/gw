@@ -4243,3 +4243,2160 @@ transform: skewY(360deg) !important;
 
 
 
+
+
+
+/* translate property started */
+.translate-0{
+transform: translate(0) !important;
+}
+.translate-1{
+transform: translate(0.8rem) !important;
+}
+.translate-2{
+transform: translate(1.6rem) !important;
+}
+.translate-3{
+transform: translate(2.4rem) !important;
+}
+.translate-4{
+transform: translate(3.2rem) !important;
+}
+.translate-5{
+transform: translate(4rem) !important;
+}
+.translate-6{
+transform: translate(4.8rem) !important;
+}
+.translate-7{
+transform: translate(5.6rem) !important;
+}
+.translate-8{
+transform: translate(6.4rem) !important;
+}
+.translate-9{
+transform: translate(7.2rem) !important;
+}
+.translate-10{
+transform: translate(8rem) !important;
+}
+.translate-10\%{
+transform: translate(10%) !important;
+}
+.translate-20\%{
+transform: translate(20%) !important;
+}
+.translate-30\%{
+transform: translate(30%) !important;
+}
+.translate-40\%{
+transform: translate(40%) !important;
+}
+.translate-50\%{
+transform: translate(50%) !important;
+}
+.translate-60\%{
+transform: translate(60%) !important;
+}
+.translate-70\%{
+transform: translate(70%) !important;
+}
+.translate-80\%{
+transform: translate(80%) !important;
+}
+.translate-90\%{
+transform: translate(90%) !important;
+}
+.translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.translate-x-0{
+transform: translateX(0) !important;
+}
+.translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.translate-x-5{
+transform: translateX(4rem) !important;
+}
+.translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.translate-x-10{
+transform: translateX(8rem) !important;
+}
+.translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.translate-y-0{
+transform: translateY(0) !important;
+}
+.translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.translate-y-5{
+transform: translateY(4rem) !important;
+}
+.translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.translate-y-10{
+transform: translateY(8rem) !important;
+}
+.translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.translate-z-0{
+transform: translateZ(0) !important;
+}
+.translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.translate-3d-0{
+transform: translate3d(0) !important;
+}
+.translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+
+
+
+
+
+
+
+
+.hover\:translate-0:hover{
+transform: translate(0) !important;
+}
+.hover\:translate-1:hover{
+transform: translate(0.8rem) !important;
+}
+.hover\:translate-2:hover{
+transform: translate(1.6rem) !important;
+}
+.hover\:translate-3:hover{
+transform: translate(2.4rem) !important;
+}
+.hover\:translate-4:hover{
+transform: translate(3.2rem) !important;
+}
+.hover\:translate-5:hover{
+transform: translate(4rem) !important;
+}
+.hover\:translate-6:hover{
+transform: translate(4.8rem) !important;
+}
+.hover\:translate-7:hover{
+transform: translate(5.6rem) !important;
+}
+.hover\:translate-8:hover{
+transform: translate(6.4rem) !important;
+}
+.hover\:translate-9:hover{
+transform: translate(7.2rem) !important;
+}
+.hover\:translate-10:hover{
+transform: translate(8rem) !important;
+}
+.hover\:translate-10\%:hover{
+transform: translate(10%) !important;
+}
+.hover\:translate-20\%:hover{
+transform: translate(20%) !important;
+}
+.hover\:translate-30\%:hover{
+transform: translate(30%) !important;
+}
+.hover\:translate-40\%:hover{
+transform: translate(40%) !important;
+}
+.hover\:translate-50\%:hover{
+transform: translate(50%) !important;
+}
+.hover\:translate-60\%:hover{
+transform: translate(60%) !important;
+}
+.hover\:translate-70\%:hover{
+transform: translate(70%) !important;
+}
+.hover\:translate-80\%:hover{
+transform: translate(80%) !important;
+}
+.hover\:translate-90\%:hover{
+transform: translate(90%) !important;
+}
+.hover\:translate-100\%:hover{
+transform: translate(100%) !important;
+}
+
+
+.hover\:translate-x-0:hover{
+transform: translateX(0) !important;
+}
+.hover\:translate-x-1:hover{
+transform: translateX(0.8rem) !important;
+}
+.hover\:translate-x-2:hover{
+transform: translateX(1.6rem) !important;
+}
+.hover\:translate-x-3:hover{
+transform: translateX(2.4rem) !important;
+}
+.hover\:translate-x-4:hover{
+transform: translateX(3.2rem) !important;
+}
+.hover\:translate-x-5:hover{
+transform: translateX(4rem) !important;
+}
+.hover\:translate-x-6:hover{
+transform: translateX(4.8rem) !important;
+}
+.hover\:translate-x-7:hover{
+transform: translateX(5.6rem) !important;
+}
+.hover\:translate-x-8:hover{
+transform: translateX(6.4rem) !important;
+}
+.hover\:translate-x-9:hover{
+transform: translateX(7.2rem) !important;
+}
+.hover\:translate-x-10:hover{
+transform: translateX(8rem) !important;
+}
+.hover\:translate-x-10\%:hover{
+transform: translateX(10%) !important;
+}
+.hover\:translate-x-20\%:hover{
+transform: translateX(20%) !important;
+}
+.hover\:translate-x-30\%:hover{
+transform: translateX(30%) !important;
+}
+.hover\:translate-x-40\%:hover{
+transform: translateX(40%) !important;
+}
+.hover\:translate-x-50\%:hover{
+transform: translateX(50%) !important;
+}
+.hover\:translate-x-60\%:hover{
+transform: translateX(60%) !important;
+}
+.hover\:translate-x-70\%:hover{
+transform: translateX(70%) !important;
+}
+.hover\:translate-x-80\%:hover{
+transform: translateX(80%) !important;
+}
+.hover\:translate-x-90\%:hover{
+transform: translateX(90%) !important;
+}
+.hover\:translate-x-100\%:hover{
+transform: translateX(100%) !important;
+}
+
+
+.hover\:translate-y-0:hover{
+transform: translateY(0) !important;
+}
+.hover\:translate-y-1:hover{
+transform: translateY(0.8rem) !important;
+}
+.hover\:translate-y-2:hover{
+transform: translateY(1.6rem) !important;
+}
+.hover\:translate-y-3:hover{
+transform: translateY(2.4rem) !important;
+}
+.hover\:translate-y-4:hover{
+transform: translateY(3.2rem) !important;
+}
+.hover\:translate-y-5:hover{
+transform: translateY(4rem) !important;
+}
+.hover\:translate-y-6:hover{
+transform: translateY(4.8rem) !important;
+}
+.hover\:translate-y-7:hover{
+transform: translateY(5.6rem) !important;
+}
+.hover\:translate-y-8:hover{
+transform: translateY(6.4rem) !important;
+}
+.hover\:translate-y-9:hover{
+transform: translateY(7.2rem) !important;
+}
+.hover\:translate-y-10:hover{
+transform: translateY(8rem) !important;
+}
+.hover\:translate-y-10\%:hover{
+transform: translateY(10%) !important;
+}
+.hover\:translate-y-20\%:hover{
+transform: translateY(20%) !important;
+}
+.hover\:translate-y-30\%:hover{
+transform: translateY(30%) !important;
+}
+.hover\:translate-y-40\%:hover{
+transform: translateY(40%) !important;
+}
+.hover\:translate-y-50\%:hover{
+transform: translateY(50%) !important;
+}
+.hover\:translate-y-60\%:hover{
+transform: translateY(60%) !important;
+}
+.hover\:translate-y-70\%:hover{
+transform: translateY(70%) !important;
+}
+.hover\:translate-y-80\%:hover{
+transform: translateY(80%) !important;
+}
+.hover\:translate-y-90\%:hover{
+transform: translateY(90%) !important;
+}
+.hover\:translate-y-100\%:hover{
+transform: translateY(100%) !important;
+}
+
+
+.hover\:translate-z-0:hover{
+transform: translateZ(0) !important;
+}
+.hover\:translate-z-1:hover{
+transform: translateZ(0.8rem) !important;
+}
+.hover\:translate-z-2:hover{
+transform: translateZ(1.6rem) !important;
+}
+.hover\:translate-z-3:hover{
+transform: translateZ(2.4rem) !important;
+}
+.hover\:translate-z-4:hover{
+transform: translateZ(3.2rem) !important;
+}
+.hover\:translate-z-5:hover{
+transform: translateZ(4rem) !important;
+}
+.hover\:translate-z-6:hover{
+transform: translateZ(4.8rem) !important;
+}
+.hover\:translate-z-7:hover{
+transform: translateZ(5.6rem) !important;
+}
+.hover\:translate-z-8:hover{
+transform: translateZ(6.4rem) !important;
+}
+.hover\:translate-z-9:hover{
+transform: translateZ(7.2rem) !important;
+}
+.hover\:translate-z-10:hover{
+transform: translateZ(8rem) !important;
+}
+.hover\:translate-z-10\%:hover{
+transform: translateZ(10%) !important;
+}
+.hover\:translate-z-20\%:hover{
+transform: translateZ(20%) !important;
+}
+.hover\:translate-z-30\%:hover{
+transform: translateZ(30%) !important;
+}
+.hover\:translate-z-40\%:hover{
+transform: translateZ(40%) !important;
+}
+.hover\:translate-z-50\%:hover{
+transform: translateZ(50%) !important;
+}
+.hover\:translate-z-60\%:hover{
+transform: translateZ(60%) !important;
+}
+.hover\:translate-z-70\%:hover{
+transform: translateZ(70%) !important;
+}
+.hover\:translate-z-80\%:hover{
+transform: translateZ(80%) !important;
+}
+.hover\:translate-z-90\%:hover{
+transform: translateZ(90%) !important;
+}
+.hover\:translate-z-100\%:hover{
+transform: translateZ(100%) !important;
+}
+
+
+.hover\:translate-3d-0:hover{
+transform: translate3d(0) !important;
+}
+.hover\:translate-3d-1:hover{
+transform: translate3d(0.8rem) !important;
+}
+.hover\:translate-3d-2:hover{
+transform: translate3d(1.6rem) !important;
+}
+.hover\:translate-3d-3:hover{
+transform: translate3d(2.4rem) !important;
+}
+.hover\:translate-3d-4:hover{
+transform: translate3d(3.2rem) !important;
+}
+.hover\:translate-3d-5:hover{
+transform: translate3d(4rem) !important;
+}
+.hover\:translate-3d-6:hover{
+transform: translate3d(4.8rem) !important;
+}
+.hover\:translate-3d-7:hover{
+transform: translate3d(5.6rem) !important;
+}
+.hover\:translate-3d-8:hover{
+transform: translate3d(6.4rem) !important;
+}
+.hover\:translate-3d-9:hover{
+transform: translate3d(7.2rem) !important;
+}
+.hover\:translate-3d-10:hover{
+transform: translate3d(8rem) !important;
+}
+.hover\:translate-3d-10\%:hover{
+transform: translate3d(10%) !important;
+}
+.hover\:translate-3d-20\%:hover{
+transform: translate3d(20%) !important;
+}
+.hover\:translate-3d-30\%:hover{
+transform: translate3d(30%) !important;
+}
+.hover\:translate-3d-40\%:hover{
+transform: translate3d(40%) !important;
+}
+.hover\:translate-3d-50\%:hover{
+transform: translate3d(50%) !important;
+}
+.hover\:translate-3d-60\%:hover{
+transform: translate3d(60%) !important;
+}
+.hover\:translate-3d-70\%:hover{
+transform: translate3d(70%) !important;
+}
+.hover\:translate-3d-80\%:hover{
+transform: translate3d(80%) !important;
+}
+.hover\:translate-3d-90\%:hover{
+transform: translate3d(90%) !important;
+}
+.hover\:translate-3d-100\%:hover{
+transform: translate3d(100%) !important;
+}
+
+
+
+
+@media(min-width:576px){
+.sm\:translate-0{
+transform: translate(0) !important;
+}
+.sm\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.sm\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.sm\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.sm\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.sm\:translate-5{
+transform: translate(4rem) !important;
+}
+.sm\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.sm\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.sm\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.sm\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.sm\:translate-10{
+transform: translate(8rem) !important;
+}
+.sm\:translate-10\%{
+transform: translate(10%) !important;
+}
+.sm\:translate-20\%{
+transform: translate(20%) !important;
+}
+.sm\:translate-30\%{
+transform: translate(30%) !important;
+}
+.sm\:translate-40\%{
+transform: translate(40%) !important;
+}
+.sm\:translate-50\%{
+transform: translate(50%) !important;
+}
+.sm\:translate-60\%{
+transform: translate(60%) !important;
+}
+.sm\:translate-70\%{
+transform: translate(70%) !important;
+}
+.sm\:translate-80\%{
+transform: translate(80%) !important;
+}
+.sm\:translate-90\%{
+transform: translate(90%) !important;
+}
+.sm\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.sm\:translate-x-0{
+transform: translateX(0) !important;
+}
+.sm\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.sm\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.sm\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.sm\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.sm\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.sm\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.sm\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.sm\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.sm\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.sm\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.sm\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.sm\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.sm\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.sm\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.sm\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.sm\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.sm\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.sm\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.sm\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.sm\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.sm\:translate-y-0{
+transform: translateY(0) !important;
+}
+.sm\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.sm\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.sm\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.sm\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.sm\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.sm\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.sm\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.sm\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.sm\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.sm\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.sm\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.sm\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.sm\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.sm\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.sm\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.sm\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.sm\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.sm\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.sm\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.sm\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.sm\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.sm\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.sm\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.sm\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.sm\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.sm\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.sm\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.sm\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.sm\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.sm\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.sm\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.sm\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.sm\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.sm\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.sm\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.sm\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.sm\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.sm\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.sm\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.sm\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.sm\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.sm\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.sm\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.sm\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.sm\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.sm\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.sm\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.sm\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.sm\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.sm\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.sm\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.sm\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.sm\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.sm\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.sm\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.sm\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.sm\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.sm\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.sm\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.sm\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.sm\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.sm\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+
+@media(min-width:768px){
+.md\:translate-0{
+transform: translate(0) !important;
+}
+.md\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.md\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.md\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.md\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.md\:translate-5{
+transform: translate(4rem) !important;
+}
+.md\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.md\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.md\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.md\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.md\:translate-10{
+transform: translate(8rem) !important;
+}
+.md\:translate-10\%{
+transform: translate(10%) !important;
+}
+.md\:translate-20\%{
+transform: translate(20%) !important;
+}
+.md\:translate-30\%{
+transform: translate(30%) !important;
+}
+.md\:translate-40\%{
+transform: translate(40%) !important;
+}
+.md\:translate-50\%{
+transform: translate(50%) !important;
+}
+.md\:translate-60\%{
+transform: translate(60%) !important;
+}
+.md\:translate-70\%{
+transform: translate(70%) !important;
+}
+.md\:translate-80\%{
+transform: translate(80%) !important;
+}
+.md\:translate-90\%{
+transform: translate(90%) !important;
+}
+.md\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.md\:translate-x-0{
+transform: translateX(0) !important;
+}
+.md\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.md\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.md\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.md\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.md\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.md\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.md\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.md\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.md\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.md\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.md\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.md\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.md\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.md\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.md\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.md\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.md\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.md\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.md\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.md\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.md\:translate-y-0{
+transform: translateY(0) !important;
+}
+.md\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.md\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.md\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.md\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.md\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.md\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.md\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.md\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.md\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.md\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.md\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.md\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.md\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.md\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.md\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.md\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.md\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.md\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.md\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.md\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.md\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.md\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.md\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.md\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.md\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.md\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.md\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.md\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.md\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.md\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.md\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.md\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.md\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.md\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.md\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.md\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.md\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.md\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.md\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.md\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.md\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.md\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.md\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.md\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.md\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.md\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.md\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.md\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.md\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.md\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.md\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.md\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.md\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.md\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.md\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.md\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.md\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.md\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.md\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.md\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.md\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.md\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+@media(min-width:992px){
+.lg\:translate-0{
+transform: translate(0) !important;
+}
+.lg\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.lg\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.lg\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.lg\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.lg\:translate-5{
+transform: translate(4rem) !important;
+}
+.lg\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.lg\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.lg\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.lg\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.lg\:translate-10{
+transform: translate(8rem) !important;
+}
+.lg\:translate-10\%{
+transform: translate(10%) !important;
+}
+.lg\:translate-20\%{
+transform: translate(20%) !important;
+}
+.lg\:translate-30\%{
+transform: translate(30%) !important;
+}
+.lg\:translate-40\%{
+transform: translate(40%) !important;
+}
+.lg\:translate-50\%{
+transform: translate(50%) !important;
+}
+.lg\:translate-60\%{
+transform: translate(60%) !important;
+}
+.lg\:translate-70\%{
+transform: translate(70%) !important;
+}
+.lg\:translate-80\%{
+transform: translate(80%) !important;
+}
+.lg\:translate-90\%{
+transform: translate(90%) !important;
+}
+.lg\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.lg\:translate-x-0{
+transform: translateX(0) !important;
+}
+.lg\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.lg\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.lg\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.lg\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.lg\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.lg\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.lg\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.lg\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.lg\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.lg\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.lg\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.lg\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.lg\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.lg\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.lg\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.lg\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.lg\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.lg\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.lg\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.lg\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.lg\:translate-y-0{
+transform: translateY(0) !important;
+}
+.lg\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.lg\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.lg\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.lg\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.lg\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.lg\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.lg\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.lg\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.lg\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.lg\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.lg\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.lg\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.lg\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.lg\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.lg\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.lg\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.lg\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.lg\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.lg\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.lg\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.lg\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.lg\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.lg\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.lg\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.lg\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.lg\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.lg\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.lg\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.lg\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.lg\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.lg\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.lg\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.lg\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.lg\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.lg\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.lg\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.lg\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.lg\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.lg\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.lg\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.lg\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.lg\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.lg\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.lg\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.lg\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.lg\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.lg\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.lg\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.lg\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.lg\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.lg\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.lg\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.lg\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.lg\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.lg\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.lg\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.lg\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.lg\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.lg\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.lg\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.lg\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.lg\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+@media(min-width:1200px){
+.xl\:translate-0{
+transform: translate(0) !important;
+}
+.xl\:translate-1{
+transform: translate(0.8rem) !important;
+}
+.xl\:translate-2{
+transform: translate(1.6rem) !important;
+}
+.xl\:translate-3{
+transform: translate(2.4rem) !important;
+}
+.xl\:translate-4{
+transform: translate(3.2rem) !important;
+}
+.xl\:translate-5{
+transform: translate(4rem) !important;
+}
+.xl\:translate-6{
+transform: translate(4.8rem) !important;
+}
+.xl\:translate-7{
+transform: translate(5.6rem) !important;
+}
+.xl\:translate-8{
+transform: translate(6.4rem) !important;
+}
+.xl\:translate-9{
+transform: translate(7.2rem) !important;
+}
+.xl\:translate-10{
+transform: translate(8rem) !important;
+}
+.xl\:translate-10\%{
+transform: translate(10%) !important;
+}
+.xl\:translate-20\%{
+transform: translate(20%) !important;
+}
+.xl\:translate-30\%{
+transform: translate(30%) !important;
+}
+.xl\:translate-40\%{
+transform: translate(40%) !important;
+}
+.xl\:translate-50\%{
+transform: translate(50%) !important;
+}
+.xl\:translate-60\%{
+transform: translate(60%) !important;
+}
+.xl\:translate-70\%{
+transform: translate(70%) !important;
+}
+.xl\:translate-80\%{
+transform: translate(80%) !important;
+}
+.xl\:translate-90\%{
+transform: translate(90%) !important;
+}
+.xl\:translate-100\%{
+transform: translate(100%) !important;
+}
+
+
+.xl\:translate-x-0{
+transform: translateX(0) !important;
+}
+.xl\:translate-x-1{
+transform: translateX(0.8rem) !important;
+}
+.xl\:translate-x-2{
+transform: translateX(1.6rem) !important;
+}
+.xl\:translate-x-3{
+transform: translateX(2.4rem) !important;
+}
+.xl\:translate-x-4{
+transform: translateX(3.2rem) !important;
+}
+.xl\:translate-x-5{
+transform: translateX(4rem) !important;
+}
+.xl\:translate-x-6{
+transform: translateX(4.8rem) !important;
+}
+.xl\:translate-x-7{
+transform: translateX(5.6rem) !important;
+}
+.xl\:translate-x-8{
+transform: translateX(6.4rem) !important;
+}
+.xl\:translate-x-9{
+transform: translateX(7.2rem) !important;
+}
+.xl\:translate-x-10{
+transform: translateX(8rem) !important;
+}
+.xl\:translate-x-10\%{
+transform: translateX(10%) !important;
+}
+.xl\:translate-x-20\%{
+transform: translateX(20%) !important;
+}
+.xl\:translate-x-30\%{
+transform: translateX(30%) !important;
+}
+.xl\:translate-x-40\%{
+transform: translateX(40%) !important;
+}
+.xl\:translate-x-50\%{
+transform: translateX(50%) !important;
+}
+.xl\:translate-x-60\%{
+transform: translateX(60%) !important;
+}
+.xl\:translate-x-70\%{
+transform: translateX(70%) !important;
+}
+.xl\:translate-x-80\%{
+transform: translateX(80%) !important;
+}
+.xl\:translate-x-90\%{
+transform: translateX(90%) !important;
+}
+.xl\:translate-x-100\%{
+transform: translateX(100%) !important;
+}
+
+
+.xl\:translate-y-0{
+transform: translateY(0) !important;
+}
+.xl\:translate-y-1{
+transform: translateY(0.8rem) !important;
+}
+.xl\:translate-y-2{
+transform: translateY(1.6rem) !important;
+}
+.xl\:translate-y-3{
+transform: translateY(2.4rem) !important;
+}
+.xl\:translate-y-4{
+transform: translateY(3.2rem) !important;
+}
+.xl\:translate-y-5{
+transform: translateY(4rem) !important;
+}
+.xl\:translate-y-6{
+transform: translateY(4.8rem) !important;
+}
+.xl\:translate-y-7{
+transform: translateY(5.6rem) !important;
+}
+.xl\:translate-y-8{
+transform: translateY(6.4rem) !important;
+}
+.xl\:translate-y-9{
+transform: translateY(7.2rem) !important;
+}
+.xl\:translate-y-10{
+transform: translateY(8rem) !important;
+}
+.xl\:translate-y-10\%{
+transform: translateY(10%) !important;
+}
+.xl\:translate-y-20\%{
+transform: translateY(20%) !important;
+}
+.xl\:translate-y-30\%{
+transform: translateY(30%) !important;
+}
+.xl\:translate-y-40\%{
+transform: translateY(40%) !important;
+}
+.xl\:translate-y-50\%{
+transform: translateY(50%) !important;
+}
+.xl\:translate-y-60\%{
+transform: translateY(60%) !important;
+}
+.xl\:translate-y-70\%{
+transform: translateY(70%) !important;
+}
+.xl\:translate-y-80\%{
+transform: translateY(80%) !important;
+}
+.xl\:translate-y-90\%{
+transform: translateY(90%) !important;
+}
+.xl\:translate-y-100\%{
+transform: translateY(100%) !important;
+}
+
+
+.xl\:translate-z-0{
+transform: translateZ(0) !important;
+}
+.xl\:translate-z-1{
+transform: translateZ(0.8rem) !important;
+}
+.xl\:translate-z-2{
+transform: translateZ(1.6rem) !important;
+}
+.xl\:translate-z-3{
+transform: translateZ(2.4rem) !important;
+}
+.xl\:translate-z-4{
+transform: translateZ(3.2rem) !important;
+}
+.xl\:translate-z-5{
+transform: translateZ(4rem) !important;
+}
+.xl\:translate-z-6{
+transform: translateZ(4.8rem) !important;
+}
+.xl\:translate-z-7{
+transform: translateZ(5.6rem) !important;
+}
+.xl\:translate-z-8{
+transform: translateZ(6.4rem) !important;
+}
+.xl\:translate-z-9{
+transform: translateZ(7.2rem) !important;
+}
+.xl\:translate-z-10{
+transform: translateZ(8rem) !important;
+}
+.xl\:translate-z-10\%{
+transform: translateZ(10%) !important;
+}
+.xl\:translate-z-20\%{
+transform: translateZ(20%) !important;
+}
+.xl\:translate-z-30\%{
+transform: translateZ(30%) !important;
+}
+.xl\:translate-z-40\%{
+transform: translateZ(40%) !important;
+}
+.xl\:translate-z-50\%{
+transform: translateZ(50%) !important;
+}
+.xl\:translate-z-60\%{
+transform: translateZ(60%) !important;
+}
+.xl\:translate-z-70\%{
+transform: translateZ(70%) !important;
+}
+.xl\:translate-z-80\%{
+transform: translateZ(80%) !important;
+}
+.xl\:translate-z-90\%{
+transform: translateZ(90%) !important;
+}
+.xl\:translate-z-100\%{
+transform: translateZ(100%) !important;
+}
+
+
+.xl\:translate-3d-0{
+transform: translate3d(0) !important;
+}
+.xl\:translate-3d-1{
+transform: translate3d(0.8rem) !important;
+}
+.xl\:translate-3d-2{
+transform: translate3d(1.6rem) !important;
+}
+.xl\:translate-3d-3{
+transform: translate3d(2.4rem) !important;
+}
+.xl\:translate-3d-4{
+transform: translate3d(3.2rem) !important;
+}
+.xl\:translate-3d-5{
+transform: translate3d(4rem) !important;
+}
+.xl\:translate-3d-6{
+transform: translate3d(4.8rem) !important;
+}
+.xl\:translate-3d-7{
+transform: translate3d(5.6rem) !important;
+}
+.xl\:translate-3d-8{
+transform: translate3d(6.4rem) !important;
+}
+.xl\:translate-3d-9{
+transform: translate3d(7.2rem) !important;
+}
+.xl\:translate-3d-10{
+transform: translate3d(8rem) !important;
+}
+.xl\:translate-3d-10\%{
+transform: translate3d(10%) !important;
+}
+.xl\:translate-3d-20\%{
+transform: translate3d(20%) !important;
+}
+.xl\:translate-3d-30\%{
+transform: translate3d(30%) !important;
+}
+.xl\:translate-3d-40\%{
+transform: translate3d(40%) !important;
+}
+.xl\:translate-3d-50\%{
+transform: translate3d(50%) !important;
+}
+.xl\:translate-3d-60\%{
+transform: translate3d(60%) !important;
+}
+.xl\:translate-3d-70\%{
+transform: translate3d(70%) !important;
+}
+.xl\:translate-3d-80\%{
+transform: translate3d(80%) !important;
+}
+.xl\:translate-3d-90\%{
+transform: translate3d(90%) !important;
+}
+.xl\:translate-3d-100\%{
+transform: translate3d(100%) !important;
+}
+}
+
+
+
+/* translate property ended 🥲*/
+
+
+
+
+/* transform-origin property started*/
+.origin-center{
+transform-origin: center !important;
+}
+.origin-top{
+transform-origin: top !important;
+}
+.origin-top-right{
+transform-origin: top right !important;
+}
+.origin-top-left{
+transform-origin: top left !important;
+}
+.origin-right{
+transform-origin: right !important;
+}
+.origin-bottom{
+transform-origin: bottom !important;
+}
+.origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.origin-left{
+transform-origin: left !important;
+}
+
+
+
+.hover\:origin-center:hover{
+transform-origin: center !important;
+}
+.hover\:origin-top:hover{
+transform-origin: top !important;
+}
+.hover\:origin-top-right:hover{
+transform-origin: top right !important;
+}
+.hover\:origin-top-left:hover{
+transform-origin: top left !important;
+}
+.hover\:origin-right:hover{
+transform-origin: right !important;
+}
+.hover\:origin-bottom:hover{
+transform-origin: bottom !important;
+}
+.hover\:origin-bottom-right:hover{
+transform-origin: bottom right !important;
+}
+.hover\:origin-bottom-left:hover{
+transform-origin: bottom left !important;
+}
+.hover\:origin-left:hover{
+transform-origin: left !important;
+}
+
+
+@media(min-width:576px){
+.sm\:origin-center{
+transform-origin: center !important;
+}
+.sm\:origin-top{
+transform-origin: top !important;
+}
+.sm\:origin-top-right{
+transform-origin: top right !important;
+}
+.sm\:origin-top-left{
+transform-origin: top left !important;
+}
+.sm\:origin-right{
+transform-origin: right !important;
+}
+.sm\:origin-bottom{
+transform-origin: bottom !important;
+}
+.sm\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.sm\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.sm\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:768px){
+.md\:origin-center{
+transform-origin: center !important;
+}
+.md\:origin-top{
+transform-origin: top !important;
+}
+.md\:origin-top-right{
+transform-origin: top right !important;
+}
+.md\:origin-top-left{
+transform-origin: top left !important;
+}
+.md\:origin-right{
+transform-origin: right !important;
+}
+.md\:origin-bottom{
+transform-origin: bottom !important;
+}
+.md\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.md\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.md\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:992px){
+.lg\:origin-center{
+transform-origin: center !important;
+}
+.lg\:origin-top{
+transform-origin: top !important;
+}
+.lg\:origin-top-right{
+transform-origin: top right !important;
+}
+.lg\:origin-top-left{
+transform-origin: top left !important;
+}
+.lg\:origin-right{
+transform-origin: right !important;
+}
+.lg\:origin-bottom{
+transform-origin: bottom !important;
+}
+.lg\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.lg\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.lg\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+@media(min-width:1200px){
+.xl\:origin-center{
+transform-origin: center !important;
+}
+.xl\:origin-top{
+transform-origin: top !important;
+}
+.xl\:origin-top-right{
+transform-origin: top right !important;
+}
+.xl\:origin-top-left{
+transform-origin: top left !important;
+}
+.xl\:origin-right{
+transform-origin: right !important;
+}
+.xl\:origin-bottom{
+transform-origin: bottom !important;
+}
+.xl\:origin-bottom-right{
+transform-origin: bottom right !important;
+}
+.xl\:origin-bottom-left{
+transform-origin: bottom left !important;
+}
+.xl\:origin-left{
+transform-origin: left !important;
+}				
+}
+
+/* transform-origin property ended */

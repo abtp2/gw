@@ -1,4 +1,5 @@
 document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/components.js" defer></script>');
+document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/jquery.min.js" defer></script>');
 document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/swiper.js" defer></script>');
 document.write('<script src="https://cdn.statically.io/gh/abtp2/gw/main/animation.js" defer></script>');
 
